@@ -1,0 +1,24 @@
+---
+title: Spacing
+description: Layout rhythm and spacing increments.
+section: Foundations
+order: 3
+---
+
+## Scale
+
+Spacing tokens follow a 4px base grid and expose semantic aliases:
+
+| Token | Value | Usage |
+|-------|-------|-------|
+| `--spacing-2xs` | 0.25rem | Compact gaps between labels and inputs |
+| `--spacing-xs` | 0.5rem | Inline spacing for button groups |
+| `--spacing-sm` | 0.75rem | Form field vertical rhythm |
+| `--spacing-md` | 1rem | Default stack spacing |
+| `--spacing-lg` | 1.5rem | Section padding |
+| `--spacing-xl` | 2rem | Layout gutters |
+
+## Layout guidelines
+
+- Align to the baseline grid whenever stacking interactive controls.
+- For page sections, pair `padding-block` values with the appropriate viewport breakpoints (for example, `var(--spacing-xl)` on desktop, `var(--spacing-lg)` on mobile).

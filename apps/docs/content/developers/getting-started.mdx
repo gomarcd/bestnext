@@ -1,0 +1,28 @@
+---
+title: Getting started
+section: Developers
+description: Install tokens, components, and the Drupal bridge.
+order: 1
+---
+
+## Install packages
+
+```bash
+pnpm add @virtual-ds/tokens @virtual-ds/components
+```
+
+Import the token CSS once in your app entry point:
+
+```ts
+import '@virtual-ds/tokens/css';
+```
+
+Then register components where needed:
+
+```ts
+import '@virtual-ds/components';
+```
+
+## Drupal integration
+
+Install the bridge module from the release artifacts and run the update hook to ingest the latest token JSON. Map Twig templates to the web components or progressively enhance existing markup using the provided library assets.

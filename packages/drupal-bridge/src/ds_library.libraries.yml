@@ -1,0 +1,12 @@
+global:
+  version: 1.x
+  css:
+    theme:
+      assets/css/tokens.css: {}
+      assets/css/demo.css: {}
+  js:
+    assets/js/components.js:
+      type: module
+  dependencies:
+    - core/drupal
+    - core/drupal.dialog

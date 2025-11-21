@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --font-dm-sans: 'DM Sans', 'Noto Sans', system-ui, -apple-system, sans-serif;
+  --font-body: 'Noto Sans', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  @apply bg-ds-background text-slate-900 antialiased;
+}
+
+ui-accordion,
+ui-accordion.docs-accordion-preview {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+ui-accordion.docs-accordion-preview {
+  --radius-md: 0.75rem;
+  --spacing-md: 1.25rem;
+  --cmp-accordion-border-color: transparent;
+  --surface-background: #FFFFFF;
+  --cmp-accordion-header-background: #FFFFFF;
+  --cmp-accordion-header-background-hover: rgba(15, 23, 42, 0.05);
+  --cmp-accordion-panel-background: #FFFFFF;
+  --cmp-accordion-header-background-active: rgba(0, 82, 204, 0.12);
+  --cmp-accordion-header-border-active: rgba(137, 168, 255, 1);
+  --cmp-accordion-header-border-radius: 8px;
+  --cmp-accordion-header-padding-inline: var(--spacing-md, 1rem);
+  --cmp-accordion-header-pill-width: 3px;
+  --cmp-accordion-header-foreground-active: #0747A6;
+  --cmp-accordion-header-icon: #0F172A;
+  margin: 0;
+}
+
+.docs-accordion-wrapper {
+  width: 100%;
+  overflow: visible;
+  border-radius: 1rem;
+  border: none;
+  background: #FFFFFF;
+}
+
+main {
+  @apply min-h-screen;
+}
+
+.prose pre {
+  @apply rounded-lg border border-ds-border bg-slate-950/95 text-slate-100 shadow-inner;
+}
+
+.prose code {
+  @apply font-mono text-sm;
+}
+
+.prose h2 {
+  @apply mt-12 text-2xl font-semibold;
+}
+
+.prose h3 {
+  @apply mt-8 text-xl font-semibold;
+}
+
+.prose ul {
+  @apply list-disc pl-6;
+}
+
+.prose ol {
+  @apply list-decimal pl-6;
+}
+
+.prose table {
+  @apply w-full text-left;
+}
+
+.prose table th {
+  @apply text-sm font-semibold uppercase tracking-wide text-slate-500;
+}
+
+.prose table td {
+  @apply text-sm align-top text-slate-700;
+}

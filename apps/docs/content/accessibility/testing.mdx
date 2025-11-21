@@ -1,0 +1,17 @@
+---
+title: Accessibility testing workflow
+section: Accessibility
+description: Combine automated and manual checks to ship accessible experiences.
+order: 1
+---
+
+## Automated checks
+
+Run axe-core in CI via the Storybook test runner and Playwright smoke tests. Automated tooling catches ~30% of issues, so treat it as an early signal rather than a full sign-off.
+
+## Manual validation
+
+1. Navigate the flow using only a keyboard.
+2. Verify focus outlines are visible on light and dark themes.
+3. Test with a screen reader (VoiceOver, NVDA) to ensure labels and announcements make sense.
+4. Confirm color contrast meets WCAG thresholds using the tokens documentation.

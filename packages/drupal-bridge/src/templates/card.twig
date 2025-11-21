@@ -1,0 +1,26 @@
+{#
+  @file
+  Card wrapper.
+  Variables:
+    - variant: (string) elevated|outlined|subtle
+    - interactive: (bool)
+    - header: (string) Optional header markup.
+    - body: (string) Main markup.
+    - footer: (string) Optional footer markup.
+#}
+
+{% set variant = variant|default('elevated') %}
+{% set interactive = interactive|default(false) %}
+
+<ui-card
+  variant="{{ variant }}"
+  {% if interactive %}interactive{% endif %}
+>
+  {% if header is defined %}
+    <span slot="header">{{ header|raw }}</span>
+  {% endif %}
+  {{ body|default('Card body content')|raw }}
+  {% if footer is defined %}
+    <div slot="footer">{{ footer|raw }}</div>
+  {% endif %}
+</ui-card>

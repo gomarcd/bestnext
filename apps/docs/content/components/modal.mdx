@@ -1,0 +1,103 @@
+---
+title: Modal
+id: modal
+status: beta
+summary: Modals capture attention for critical tasks or confirmations while dimming the rest of the interface.
+since: 1.0.0
+preview: /previews/modal.svg
+tags:
+  - overlays
+  - dialogs
+componentName: ui-modal
+props:
+  - name: open
+    type: boolean
+    default: 'false'
+    description: Controls visibility of the dialog.
+    required: false
+  - name: headline
+    type: string
+    default: "''"
+    description: Primary heading text rendered in the header slot.
+    required: false
+  - name: closable
+    type: boolean
+    default: 'true'
+    description: Toggles the built-in close affordances (escape key, backdrop click, close button).
+    required: false
+events:
+  - name: ui-modal-request-close
+    type: CustomEvent<{ reason: 'escape' | 'backdrop' | 'close-button' | 'programmatic' }>
+    description: Fired when the user attempts to close the modal. Prevent default to keep it open.
+  - name: ui-modal-close
+    type: CustomEvent<{ reason: string }>
+    description: Emitted after the modal closes.
+slots:
+  - name: header
+    description: Optional custom header contents when `headline` is not provided.
+  - name: footer
+    description: Action buttons or secondary links.
+  - name: description
+    description: Supplementary description announced via `aria-describedby`.
+tokens:
+  - name: --cmp-modal-backdrop
+    alias: --surface-overlay
+  - name: --cmp-modal-background
+    alias: --surface-background
+  - name: --cmp-modal-shadow
+    alias: --elevation-lg
+dependencies:
+  - '@virtual-ds/components'
+  - '@virtual-ds/tokens'
+code:
+  html: |
+    <ui-modal headline="Review changes" open>
+      <p>Confirm the updates before pushing live.</p>
+      <div slot="footer">
+        <ui-button variant="ghost" size="sm">Cancel</ui-button>
+        <ui-button size="sm">Confirm</ui-button>
+      </div>
+    </ui-modal>
+  ts: |
+    import '@virtual-ds/components/ui-modal';
+  twig: |
+    <ui-modal headline="{{ headline }}" ?open={{ open|default(false) }}>
+      {{ body|raw }}
+      <div slot="footer">
+        {{ footer|raw }}
+      </div>
+    </ui-modal>
+  css: |
+    ui-modal .body p {
+      margin-bottom: 0;
+    }
+a11y:
+  aria:
+    - Uses `role="dialog"` with `aria-modal="true"` and automatic labelling.
+    - Supply `slot="description"` content for more verbose instructions.
+  keyboard:
+    - Escape closes the modal when `closable` is true.
+    - Focus is trapped within the dialog while open and returned after close.
+  notes:
+    - Avoid stacking modals—use nested flows like drawers or inline expansions instead.
+    - Prevent scroll on the document when the dialog is open to aid screen magnifier users.
+related:
+  - button
+  - text-field
+---
+
+## Overview
+
+Use modals to confirm irreversible actions, collect short form data, or present critical information that requires acknowledgment. Keep content succinct and focused on the decision at hand. For lengthy flows, prefer dedicated pages or stepper patterns instead of stacking modals.
+
+Always provide at least one clear dismissal action. Label destructive or high-risk actions explicitly (for example, “Delete record”).
+
+## UX Guidelines
+
+- Dim the background sufficiently to create visual focus but allow users to maintain context.
+- Place primary actions on the right and secondary actions on the left for left-to-right locales.
+- Avoid placing scrollable content within the modal body unless necessary; when required, keep headers and footers fixed.
+
+## Accessibility details
+
+The component traps focus while open and restores the previously focused element on close. When modals spawn from a control, ensure the trigger remains in the DOM so focus can return. Screen reader users should hear the headline immediately—supply a concise `headline` or `header` slot. Keep the content keyboard navigable and make sure the Escape key path is testable.

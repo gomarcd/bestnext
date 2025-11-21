@@ -1,0 +1,24 @@
+{#
+  @file
+  Button wrapper for Renesas Design System component.
+  Available variables:
+    - label: (string) Button label text.
+    - variant: (string) Variant name (primary|secondary|ghost).
+    - size: (string) Size token (sm|md|lg).
+    - disabled: (bool) Whether the button is disabled.
+    - full_width: (bool) Stretch the button to fill the container width.
+#}
+
+{% set variant = variant|default('primary') %}
+{% set size = size|default('md') %}
+{% set full_width = full_width|default(false) %}
+
+<ui-button
+  variant="{{ variant }}"
+  size="{{ size }}"
+  type="{{ type|default('button') }}"
+  {% if disabled %}disabled{% endif %}
+  {% if full_width %}full-width{% endif %}
+>
+  {{ label|default('Button label') }}
+</ui-button>

@@ -1,0 +1,8 @@
+name: Renesas Design System Bridge
+type: theme
+core_version_requirement: ^10
+package: Custom
+description: 'Provides Drupal presentation assets for the Renesas Design System.'
+base theme: classy
+libraries:
+  - ds_library/global

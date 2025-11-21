@@ -1,0 +1,464 @@
+{
+  "pages": [
+    {
+      "id": "page-d6a84cdf-f288-486f-9345-c8275041318f",
+      "path": "/about",
+      "title": "About the experience layer for every Virtual product team",
+      "sections": [
+        {
+          "id": "section-3w3lidlbvg6",
+          "columns": [
+            {
+              "id": "column-k3w9v0bkbef",
+              "span": 12,
+              "blocks": []
+            }
+          ]
+        }
+      ],
+      "status": "published",
+      "parentId": null,
+      "order": 0,
+      "createdAt": "2025-10-28T02:36:33.954Z",
+      "updatedAt": "2025-10-28T02:36:33.956Z",
+      "body": ""
+    },
+    {
+      "id": "section-foundations",
+      "title": "Foundations",
+      "slug": "foundations",
+      "path": "/foundations",
+      "parentId": null,
+      "order": 1,
+      "status": "published",
+      "body": "<section class=\"prose prose-slate max-w-none\"><h1>Foundations</h1><p>Start curating content for the foundations collection directly in the CMS.</p></section>",
+      "sections": [
+        {
+          "id": "section-9d197zr9hke",
+          "columns": [
+            {
+              "id": "column-19vvfce1rg3",
+              "span": 12,
+              "blocks": []
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.170Z",
+      "updatedAt": "2025-10-28T04:49:24.171Z"
+    },
+    {
+      "id": "section-components",
+      "title": "Components",
+      "slug": "components",
+      "path": "/components",
+      "parentId": null,
+      "order": 2,
+      "status": "published",
+      "body": "<section class=\"prose prose-slate max-w-none\"><h1>Components</h1><p>Browse component documentation sourced from MDX files. Use the editor to add CMS-managed announcements or contextual guidance.</p></section>",
+      "sections": [
+        {
+          "id": "section-d4cguyejl4m",
+          "columns": [
+            {
+              "id": "column-8szt8rt4n69",
+              "span": 12,
+              "blocks": []
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.183Z",
+      "updatedAt": "2025-10-28T04:49:24.183Z"
+    },
+    {
+      "id": "section-patterns",
+      "title": "Patterns",
+      "slug": "patterns",
+      "path": "/patterns",
+      "parentId": null,
+      "order": 3,
+      "status": "published",
+      "body": "<section class=\"prose prose-slate max-w-none\"><h1>Patterns</h1><p>Start curating content for the patterns collection directly in the CMS.</p></section>",
+      "sections": [
+        {
+          "id": "section-fratnkw28r5",
+          "columns": [
+            {
+              "id": "column-1q4xh9hse0g",
+              "span": 12,
+              "blocks": []
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.192Z",
+      "updatedAt": "2025-10-28T04:49:24.192Z"
+    },
+    {
+      "id": "section-accessibility",
+      "title": "Accessibility",
+      "slug": "accessibility",
+      "path": "/accessibility",
+      "parentId": null,
+      "order": 4,
+      "status": "published",
+      "body": "<section class=\"prose prose-slate max-w-none\"><h1>Accessibility</h1><p>Start curating content for the accessibility collection directly in the CMS.</p></section>",
+      "sections": [
+        {
+          "id": "section-nw9z9b28vos",
+          "columns": [
+            {
+              "id": "column-rgkmwm55mx",
+              "span": 12,
+              "blocks": []
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.193Z",
+      "updatedAt": "2025-10-28T04:49:24.193Z"
+    },
+    {
+      "id": "section-developers",
+      "title": "Developers",
+      "slug": "developers",
+      "path": "/developers",
+      "parentId": null,
+      "order": 5,
+      "status": "published",
+      "body": "<section class=\"prose prose-slate max-w-none\"><h1>Developers</h1><p>Start curating content for the developers collection directly in the CMS.</p></section>",
+      "sections": [
+        {
+          "id": "section-2je4oo45k6o",
+          "columns": [
+            {
+              "id": "column-q9psv50fr0a",
+              "span": 12,
+              "blocks": []
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.196Z",
+      "updatedAt": "2025-10-28T04:49:24.196Z"
+    },
+    {
+      "id": "page-accessibility-testing",
+      "title": "Accessibility testing workflow",
+      "slug": "testing",
+      "path": "/accessibility/testing",
+      "parentId": "section-accessibility",
+      "order": 0,
+      "status": "published",
+      "body": "<h2>Automated checks</h2>\n<p>Run axe-core in CI via the Storybook test runner and Playwright smoke tests. Automated tooling catches ~30% of issues, so treat it as an early signal rather than a full sign-off.</p>\n<h2>Manual validation</h2>\n<ol>\n<li>Navigate the flow using only a keyboard.</li>\n<li>Verify focus outlines are visible on light and dark themes.</li>\n<li>Test with a screen reader (VoiceOver, NVDA) to ensure labels and announcements make sense.</li>\n<li>Confirm color contrast meets WCAG thresholds using the tokens documentation.</li>\n</ol>",
+      "sections": [
+        {
+          "id": "section-b9d2abac-17bb-4505-8a29-7b591ef2fd9e",
+          "columns": [
+            {
+              "id": "column-4df549cf-ac32-44d4-bb4d-135cbcab8dd2",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-d8bdec7a-ad5a-492c-9ec2-51d9ade377da",
+                  "kind": "rich-text",
+                  "html": "<h2>Automated checks</h2>\n<p>Run axe-core in CI via the Storybook test runner and Playwright smoke tests. Automated tooling catches ~30% of issues, so treat it as an early signal rather than a full sign-off.</p>\n<h2>Manual validation</h2>\n<ol>\n<li>Navigate the flow using only a keyboard.</li>\n<li>Verify focus outlines are visible on light and dark themes.</li>\n<li>Test with a screen reader (VoiceOver, NVDA) to ensure labels and announcements make sense.</li>\n<li>Confirm color contrast meets WCAG thresholds using the tokens documentation.</li>\n</ol>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.196Z",
+      "updatedAt": "2025-10-28T05:54:06.735Z"
+    },
+    {
+      "id": "page-components-accordion",
+      "title": "Accordion",
+      "slug": "accordion",
+      "path": "/components/accordion",
+      "parentId": "section-components",
+      "order": 1,
+      "status": "published",
+      "body": "<h2>Overview</h2>\n<p>Accordions help keep long-form content skimmable by showing one section at a time. Keep section titles short and descriptive—people should understand what they gain before expanding.</p>\n<p>Reserve accordions for content that benefits from a progressive disclosure pattern (for example FAQs, filter panels, or secondary instructional text). Prefer inline expansion or navigation pages when the content is critical to task completion.</p>\n<h2>UX Guidelines</h2>\n<ul>\n<li>Limit the number of items to prevent excessive scrolling.</li>\n<li>If very important content is hidden behind an accordion, reconsider whether it should be default-open.</li>\n<li>Provide clear feedback for disabled accordion items and explain why they cannot be opened.</li>\n</ul>\n<h2>Accessibility details</h2>\n<p>The component follows the WAI-ARIA accordion pattern using roving tab index. Ensure that focus order remains logical, especially when inserting custom interactive controls inside accordion panels. If panels contain forms, confirm that validation states are announced even when the parent item collapses.</p>",
+      "sections": [
+        {
+          "id": "section-ccf66cca-862b-4d5f-928e-5b3d5f5c6f9d",
+          "columns": [
+            {
+              "id": "column-3a2b5291-6b3a-4a06-a02a-4c4416478357",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-b3997aed-ccb7-49ef-aec1-92665c6a2474",
+                  "kind": "rich-text",
+                  "html": "<h2>Overview</h2>\n<p>Accordions help keep long-form content skimmable by showing one section at a time. Keep section titles short and descriptive—people should understand what they gain before expanding.</p>\n<p>Reserve accordions for content that benefits from a progressive disclosure pattern (for example FAQs, filter panels, or secondary instructional text). Prefer inline expansion or navigation pages when the content is critical to task completion.</p>\n<h2>UX Guidelines</h2>\n<ul>\n<li>Limit the number of items to prevent excessive scrolling.</li>\n<li>If very important content is hidden behind an accordion, reconsider whether it should be default-open.</li>\n<li>Provide clear feedback for disabled accordion items and explain why they cannot be opened.</li>\n</ul>\n<h2>Accessibility details</h2>\n<p>The component follows the WAI-ARIA accordion pattern using roving tab index. Ensure that focus order remains logical, especially when inserting custom interactive controls inside accordion panels. If panels contain forms, confirm that validation states are announced even when the parent item collapses.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.185Z",
+      "updatedAt": "2025-10-28T05:54:06.735Z"
+    },
+    {
+      "id": "page-components-button",
+      "title": "Button",
+      "slug": "button",
+      "path": "/components/button",
+      "parentId": "section-components",
+      "order": 2,
+      "status": "published",
+      "body": "<h2>Overview</h2>\n<p>Buttons enable people to act on the current page or commit a task. Choose variants intentionally: use the primary button for the most important action on the view and secondary or ghost variants for less prominent actions.</p>\n<p>Place destructive actions away from primary CTAs and communicate the outcome in the label (for example, “Delete project”). Avoid using buttons for navigation between pages—prefer links unless the action commits data.</p>\n<h2>UX Guidelines</h2>\n<h3>Dos</h3>\n<ul>\n<li>Keep labels short, specific, and outcome oriented (verb + noun works well).</li>\n<li>Use one primary button per surface to avoid competing actions.</li>\n<li>Group related buttons and maintain consistent spacing between them.</li>\n</ul>\n<h3>Don’ts</h3>\n<ul>\n<li>Don’t mix different button sizes within the same group.</li>\n<li>Don’t rely on color alone to communicate destructive actions—pair with iconography or explicit labels.</li>\n<li>Don’t disable buttons without also communicating why they cannot be used.</li>\n</ul>\n<h2>Accessibility details</h2>\n<p>Buttons follow the WAI-ARIA authoring practices for command buttons. Ensure the focus ring remains visible against both light and dark themes and that contrast between text and fill meets WCAG 2.2 AA (4.5:1).</p>\n<p>When introducing toggle behavior, set <code>aria-pressed</code> and ensure the state change is announced to assistive technology. If the button triggers a dialog, move focus into the dialog container after activation.</p>",
+      "sections": [
+        {
+          "id": "section-c571a646-07e5-4539-8412-d3894bf0be18",
+          "columns": [
+            {
+              "id": "column-deb441ed-2e8e-4d2d-b05e-6001687b085e",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-07d1b1cf-4d10-46cc-973c-1156e4065b5e",
+                  "kind": "rich-text",
+                  "html": "<h2>Overview</h2>\n<p>Buttons enable people to act on the current page or commit a task. Choose variants intentionally: use the primary button for the most important action on the view and secondary or ghost variants for less prominent actions.</p>\n<p>Place destructive actions away from primary CTAs and communicate the outcome in the label (for example, “Delete project”). Avoid using buttons for navigation between pages—prefer links unless the action commits data.</p>\n<h2>UX Guidelines</h2>\n<h3>Dos</h3>\n<ul>\n<li>Keep labels short, specific, and outcome oriented (verb + noun works well).</li>\n<li>Use one primary button per surface to avoid competing actions.</li>\n<li>Group related buttons and maintain consistent spacing between them.</li>\n</ul>\n<h3>Don’ts</h3>\n<ul>\n<li>Don’t mix different button sizes within the same group.</li>\n<li>Don’t rely on color alone to communicate destructive actions—pair with iconography or explicit labels.</li>\n<li>Don’t disable buttons without also communicating why they cannot be used.</li>\n</ul>\n<h2>Accessibility details</h2>\n<p>Buttons follow the WAI-ARIA authoring practices for command buttons. Ensure the focus ring remains visible against both light and dark themes and that contrast between text and fill meets WCAG 2.2 AA (4.5:1).</p>\n<p>When introducing toggle behavior, set <code>aria-pressed</code> and ensure the state change is announced to assistive technology. If the button triggers a dialog, move focus into the dialog container after activation.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.188Z",
+      "updatedAt": "2025-10-28T05:54:06.736Z"
+    },
+    {
+      "id": "page-components-card",
+      "title": "Card",
+      "slug": "card",
+      "path": "/components/card",
+      "parentId": "section-components",
+      "order": 3,
+      "status": "published",
+      "body": "<h2>Overview</h2>\n<p>Cards provide a flexible container for summarizing entities such as projects, resources, or announcements. They can include imagery, supporting text, and action buttons. Keep the content hierarchy consistent: header, body, then footer.</p>\n<p>When cards act as navigation triggers, mark the <code>interactive</code> flag and ensure the entire card is focusable. Include descriptive text that conveys the destination or action taken.</p>\n<h2>UX Guidelines</h2>\n<ul>\n<li>Maintain consistent padding and typography across card variants to reinforce familiarity.</li>\n<li>Align card actions horizontally and prefer primary buttons on the right for left-to-right locales.</li>\n<li>Use the subtle variant on surfaces that already provide elevation to avoid competing shadows.</li>\n</ul>\n<h2>Accessibility details</h2>\n<p>Interactive cards must provide a clear focus state and respond to both click and keyboard activation (Enter/Space). When cards contain nested interactive elements, ensure that the card itself is not focusable to prevent focus traps. Use ARIA labelling if the card’s purpose is not apparent from visible text.</p>",
+      "sections": [
+        {
+          "id": "section-665ea574-2555-484d-a679-2d88ff3bc0a7",
+          "columns": [
+            {
+              "id": "column-4e315721-f0b4-4be3-95ba-ef322d77dc74",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-e33f536c-2cfe-4f94-ba3e-516964a13dce",
+                  "kind": "rich-text",
+                  "html": "<h2>Overview</h2>\n<p>Cards provide a flexible container for summarizing entities such as projects, resources, or announcements. They can include imagery, supporting text, and action buttons. Keep the content hierarchy consistent: header, body, then footer.</p>\n<p>When cards act as navigation triggers, mark the <code>interactive</code> flag and ensure the entire card is focusable. Include descriptive text that conveys the destination or action taken.</p>\n<h2>UX Guidelines</h2>\n<ul>\n<li>Maintain consistent padding and typography across card variants to reinforce familiarity.</li>\n<li>Align card actions horizontally and prefer primary buttons on the right for left-to-right locales.</li>\n<li>Use the subtle variant on surfaces that already provide elevation to avoid competing shadows.</li>\n</ul>\n<h2>Accessibility details</h2>\n<p>Interactive cards must provide a clear focus state and respond to both click and keyboard activation (Enter/Space). When cards contain nested interactive elements, ensure that the card itself is not focusable to prevent focus traps. Use ARIA labelling if the card’s purpose is not apparent from visible text.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.190Z",
+      "updatedAt": "2025-10-28T05:54:06.736Z"
+    },
+    {
+      "id": "page-components-text-field",
+      "title": "Text Field",
+      "slug": "text-field",
+      "path": "/components/text-field",
+      "parentId": "section-components",
+      "order": 4,
+      "status": "published",
+      "body": "<h2>Overview</h2>\n<p>Text fields support short responses like names, emails, and search queries. Always pair the input with a visible label to maintain context and ensure accessibility. Use helper text sparingly to clarify formatting expectations or consequences.</p>\n<p>When validation fails, present specific error messages and keep helper text visible so people can compare the correct format with the issue.</p>\n<h2>UX Guidelines</h2>\n<ul>\n<li>Use sentence case labels and avoid punctuation unless the label is a question.</li>\n<li>Reserve placeholder text for examples, not essential instructions.</li>\n<li>Align grouped fields to create a predictable scan pattern.</li>\n</ul>\n<h2>Accessibility details</h2>\n<p>The component exposes <code>aria-describedby</code> for helper and error content. When the error string changes, screen readers are notified automatically. Keep the helper and error text concise so it remains readable for assistive technology.</p>",
+      "sections": [
+        {
+          "id": "section-5cd8a5f2-362e-42fe-b819-01b8ee8696c6",
+          "columns": [
+            {
+              "id": "column-900cec69-3e7d-4da2-9830-fe5919fe116d",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-ae6e28f9-881f-486c-b95c-7ae7cb7c88e5",
+                  "kind": "rich-text",
+                  "html": "<h2>Overview</h2>\n<p>Text fields support short responses like names, emails, and search queries. Always pair the input with a visible label to maintain context and ensure accessibility. Use helper text sparingly to clarify formatting expectations or consequences.</p>\n<p>When validation fails, present specific error messages and keep helper text visible so people can compare the correct format with the issue.</p>\n<h2>UX Guidelines</h2>\n<ul>\n<li>Use sentence case labels and avoid punctuation unless the label is a question.</li>\n<li>Reserve placeholder text for examples, not essential instructions.</li>\n<li>Align grouped fields to create a predictable scan pattern.</li>\n</ul>\n<h2>Accessibility details</h2>\n<p>The component exposes <code>aria-describedby</code> for helper and error content. When the error string changes, screen readers are notified automatically. Keep the helper and error text concise so it remains readable for assistive technology.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.191Z",
+      "updatedAt": "2025-10-28T05:54:06.736Z"
+    },
+    {
+      "id": "page-developers-getting-started",
+      "title": "Getting started",
+      "slug": "getting-started",
+      "path": "/developers/getting-started",
+      "parentId": "section-developers",
+      "order": 0,
+      "status": "published",
+      "body": "<h2>Install packages</h2>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e\" tabindex=\"0\" data-language=\"bash\" data-theme=\"github-light github-dark\"><code data-language=\"bash\" data-theme=\"github-light github-dark\" style=\"display:grid\"><span data-line=\"\"><span style=\"--shiki-light:#6F42C1;--shiki-dark:#B392F0\">pnpm</span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\"> add</span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\"> @virtual-ds/tokens</span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\"> @virtual-ds/components</span></span></code></pre></figure>\n<p>Import the token CSS once in your app entry point:</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e\" tabindex=\"0\" data-language=\"ts\" data-theme=\"github-light github-dark\"><code data-language=\"ts\" data-theme=\"github-light github-dark\" style=\"display:grid\"><span data-line=\"\"><span style=\"--shiki-light:#D73A49;--shiki-dark:#F97583\">import</span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\"> &#x27;@virtual-ds/tokens/css&#x27;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">;</span></span></code></pre></figure>\n<p>Then register components where needed:</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e\" tabindex=\"0\" data-language=\"ts\" data-theme=\"github-light github-dark\"><code data-language=\"ts\" data-theme=\"github-light github-dark\" style=\"display:grid\"><span data-line=\"\"><span style=\"--shiki-light:#D73A49;--shiki-dark:#F97583\">import</span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\"> &#x27;@virtual-ds/components&#x27;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">;</span></span></code></pre></figure>\n<h2>Drupal integration</h2>\n<p>Install the bridge module from the release artifacts and run the update hook to ingest the latest token JSON. Map Twig templates to the web components or progressively enhance existing markup using the provided library assets.</p>",
+      "sections": [
+        {
+          "id": "section-bb1e84b3-4954-48d1-b26e-4890bd94a922",
+          "columns": [
+            {
+              "id": "column-80484483-fe97-4200-b221-2f3722bffba5",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-a7b8a678-1169-4565-aa23-d8584cf42b14",
+                  "kind": "rich-text",
+                  "html": "<h2>Install packages</h2>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e\" tabindex=\"0\" data-language=\"bash\" data-theme=\"github-light github-dark\"><code data-language=\"bash\" data-theme=\"github-light github-dark\" style=\"display:grid\"><span data-line=\"\"><span style=\"--shiki-light:#6F42C1;--shiki-dark:#B392F0\">pnpm</span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\"> add</span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\"> @virtual-ds/tokens</span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\"> @virtual-ds/components</span></span></code></pre></figure>\n<p>Import the token CSS once in your app entry point:</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e\" tabindex=\"0\" data-language=\"ts\" data-theme=\"github-light github-dark\"><code data-language=\"ts\" data-theme=\"github-light github-dark\" style=\"display:grid\"><span data-line=\"\"><span style=\"--shiki-light:#D73A49;--shiki-dark:#F97583\">import</span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\"> &#x27;@virtual-ds/tokens/css&#x27;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">;</span></span></code></pre></figure>\n<p>Then register components where needed:</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e\" tabindex=\"0\" data-language=\"ts\" data-theme=\"github-light github-dark\"><code data-language=\"ts\" data-theme=\"github-light github-dark\" style=\"display:grid\"><span data-line=\"\"><span style=\"--shiki-light:#D73A49;--shiki-dark:#F97583\">import</span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\"> &#x27;@virtual-ds/components&#x27;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">;</span></span></code></pre></figure>\n<h2>Drupal integration</h2>\n<p>Install the bridge module from the release artifacts and run the update hook to ingest the latest token JSON. Map Twig templates to the web components or progressively enhance existing markup using the provided library assets.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.198Z",
+      "updatedAt": "2025-10-28T05:54:06.736Z"
+    },
+    {
+      "id": "page-foundations-colors",
+      "title": "Color",
+      "slug": "colors",
+      "path": "/foundations/colors",
+      "parentId": "section-foundations",
+      "order": 0,
+      "status": "published",
+      "body": "<h2>Palette</h2>\n<p>We derive product color from <code>@virtual-ds/tokens</code>. Brand blues appear as primary actions, while neutral surfaces provide structure for content.</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e\" tabindex=\"0\" data-language=\"json\" data-theme=\"github-light github-dark\"><code data-language=\"json\" data-theme=\"github-light github-dark\" style=\"display:grid\"><span data-line=\"\"><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">tokens.brand.primary = {</span></span>\n<span data-line=\"\"><span style=\"--shiki-light:#005CC5;--shiki-dark:#79B8FF\">  &quot;400&quot;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">: </span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\">&quot;#3B82F6&quot;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">,</span></span>\n<span data-line=\"\"><span style=\"--shiki-light:#005CC5;--shiki-dark:#79B8FF\">  &quot;500&quot;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">: </span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\">&quot;#2563EB&quot;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">,</span></span>\n<span data-line=\"\"><span style=\"--shiki-light:#005CC5;--shiki-dark:#79B8FF\">  &quot;600&quot;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">: </span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\">&quot;#1D4ED8&quot;</span></span>\n<span data-line=\"\"><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">}</span></span></code></pre></figure>\n<p>Use semantic aliases for UI states instead of referencing raw brand values (for example <code>--state-success</code>). Maintain a minimum contrast ratio of 4.5:1 for text on backgrounds.</p>\n<h2>Theming</h2>\n<p>Tokens ship with light and dark modes. Apply the correct theme by toggling the <code>data-theme</code> attribute on the document element. Custom themes can be layered by overriding semantic tokens while leaving component tokens intact.</p>",
+      "sections": [
+        {
+          "id": "section-b3703852-3f75-4dca-b5ba-32f1799205f8",
+          "columns": [
+            {
+              "id": "column-c6083a99-707e-4cc0-9de1-ad01f5679479",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-57c0e795-4e21-406d-bc10-1d81f650bab4",
+                  "kind": "rich-text",
+                  "html": "<h2>Palette</h2>\n<p>We derive product color from <code>@virtual-ds/tokens</code>. Brand blues appear as primary actions, while neutral surfaces provide structure for content.</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e\" tabindex=\"0\" data-language=\"json\" data-theme=\"github-light github-dark\"><code data-language=\"json\" data-theme=\"github-light github-dark\" style=\"display:grid\"><span data-line=\"\"><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">tokens.brand.primary = {</span></span>\n<span data-line=\"\"><span style=\"--shiki-light:#005CC5;--shiki-dark:#79B8FF\">  &quot;400&quot;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">: </span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\">&quot;#3B82F6&quot;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">,</span></span>\n<span data-line=\"\"><span style=\"--shiki-light:#005CC5;--shiki-dark:#79B8FF\">  &quot;500&quot;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">: </span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\">&quot;#2563EB&quot;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">,</span></span>\n<span data-line=\"\"><span style=\"--shiki-light:#005CC5;--shiki-dark:#79B8FF\">  &quot;600&quot;</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">: </span><span style=\"--shiki-light:#032F62;--shiki-dark:#9ECBFF\">&quot;#1D4ED8&quot;</span></span>\n<span data-line=\"\"><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">}</span></span></code></pre></figure>\n<p>Use semantic aliases for UI states instead of referencing raw brand values (for example <code>--state-success</code>). Maintain a minimum contrast ratio of 4.5:1 for text on backgrounds.</p>\n<h2>Theming</h2>\n<p>Tokens ship with light and dark modes. Apply the correct theme by toggling the <code>data-theme</code> attribute on the document element. Custom themes can be layered by overriding semantic tokens while leaving component tokens intact.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.178Z",
+      "updatedAt": "2025-10-28T05:54:06.736Z"
+    },
+    {
+      "id": "page-foundations-typography",
+      "title": "Typography",
+      "slug": "typography",
+      "path": "/foundations/typography",
+      "parentId": "section-foundations",
+      "order": 1,
+      "status": "published",
+      "body": "<h2>Font stacks</h2>\n<p>Our sans-serif stack defaults to Inter with system fallbacks:</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e\" tabindex=\"0\" data-language=\"css\" data-theme=\"github-light github-dark\"><code data-language=\"css\" data-theme=\"github-light github-dark\" style=\"display:grid\"><span data-line=\"\"><span style=\"--shiki-light:#22863A;--shiki-dark:#85E89D\">font-family</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">: var(--font-family-sans);</span></span></code></pre></figure>\n<p>Use the monospace stack for code snippets, console output, or token names.</p>\n<h2>Type scale</h2>\n<table><thead><tr><th>Token</th><th>Size</th><th>Usage</th></tr></thead><tbody><tr><td><code>--font-size-xs</code></td><td>0.75rem</td><td>Legal text, captions</td></tr><tr><td><code>--font-size-sm</code></td><td>0.875rem</td><td>Input labels, helper text</td></tr><tr><td><code>--font-size-md</code></td><td>1rem</td><td>Body copy</td></tr><tr><td><code>--font-size-lg</code></td><td>1.125rem</td><td>Section headings</td></tr><tr><td><code>--font-size-xl</code></td><td>1.5rem</td><td>Page titles</td></tr></tbody></table>\n<p>Line heights default to <code>--font-line-height-normal</code>. Increase to <code>relaxed</code> for paragraphs over 80 characters wide.</p>",
+      "sections": [
+        {
+          "id": "section-79d59f82-9d5a-4b30-bfee-7aba76f93871",
+          "columns": [
+            {
+              "id": "column-dd7ef5db-1715-4ab9-ba3e-2ae1ed6e2e6a",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-3f84643f-93e2-45d3-9409-e83ebd72f4d2",
+                  "kind": "rich-text",
+                  "html": "<h2>Font stacks</h2>\n<p>Our sans-serif stack defaults to Inter with system fallbacks:</p>\n<figure data-rehype-pretty-code-figure=\"\"><pre style=\"--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e\" tabindex=\"0\" data-language=\"css\" data-theme=\"github-light github-dark\"><code data-language=\"css\" data-theme=\"github-light github-dark\" style=\"display:grid\"><span data-line=\"\"><span style=\"--shiki-light:#22863A;--shiki-dark:#85E89D\">font-family</span><span style=\"--shiki-light:#24292E;--shiki-dark:#E1E4E8\">: var(--font-family-sans);</span></span></code></pre></figure>\n<p>Use the monospace stack for code snippets, console output, or token names.</p>\n<h2>Type scale</h2>\n<table><thead><tr><th>Token</th><th>Size</th><th>Usage</th></tr></thead><tbody><tr><td><code>--font-size-xs</code></td><td>0.75rem</td><td>Legal text, captions</td></tr><tr><td><code>--font-size-sm</code></td><td>0.875rem</td><td>Input labels, helper text</td></tr><tr><td><code>--font-size-md</code></td><td>1rem</td><td>Body copy</td></tr><tr><td><code>--font-size-lg</code></td><td>1.125rem</td><td>Section headings</td></tr><tr><td><code>--font-size-xl</code></td><td>1.5rem</td><td>Page titles</td></tr></tbody></table>\n<p>Line heights default to <code>--font-line-height-normal</code>. Increase to <code>relaxed</code> for paragraphs over 80 characters wide.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.181Z",
+      "updatedAt": "2025-10-28T05:54:06.736Z"
+    },
+    {
+      "id": "page-foundations-spacing",
+      "title": "Spacing",
+      "slug": "spacing",
+      "path": "/foundations/spacing",
+      "parentId": "section-foundations",
+      "order": 2,
+      "status": "published",
+      "body": "<h2>Scale</h2>\n<p>Spacing tokens follow a 4px base grid and expose semantic aliases:</p>\n<table><thead><tr><th>Token</th><th>Value</th><th>Usage</th></tr></thead><tbody><tr><td><code>--spacing-2xs</code></td><td>0.25rem</td><td>Compact gaps between labels and inputs</td></tr><tr><td><code>--spacing-xs</code></td><td>0.5rem</td><td>Inline spacing for button groups</td></tr><tr><td><code>--spacing-sm</code></td><td>0.75rem</td><td>Form field vertical rhythm</td></tr><tr><td><code>--spacing-md</code></td><td>1rem</td><td>Default stack spacing</td></tr><tr><td><code>--spacing-lg</code></td><td>1.5rem</td><td>Section padding</td></tr><tr><td><code>--spacing-xl</code></td><td>2rem</td><td>Layout gutters</td></tr></tbody></table>\n<h2>Layout guidelines</h2>\n<ul>\n<li>Align to the baseline grid whenever stacking interactive controls.</li>\n<li>For page sections, pair <code>padding-block</code> values with the appropriate viewport breakpoints (for example, <code>var(--spacing-xl)</code> on desktop, <code>var(--spacing-lg)</code> on mobile).</li>\n</ul>",
+      "sections": [
+        {
+          "id": "section-11e93ac3-ef5d-483c-878b-726613299cd9",
+          "columns": [
+            {
+              "id": "column-7c6e73b7-ab27-487f-809b-b705cae779b1",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-befa52a1-cc86-4015-abef-bec7cb6cabeb",
+                  "kind": "rich-text",
+                  "html": "<h2>Scale</h2>\n<p>Spacing tokens follow a 4px base grid and expose semantic aliases:</p>\n<table><thead><tr><th>Token</th><th>Value</th><th>Usage</th></tr></thead><tbody><tr><td><code>--spacing-2xs</code></td><td>0.25rem</td><td>Compact gaps between labels and inputs</td></tr><tr><td><code>--spacing-xs</code></td><td>0.5rem</td><td>Inline spacing for button groups</td></tr><tr><td><code>--spacing-sm</code></td><td>0.75rem</td><td>Form field vertical rhythm</td></tr><tr><td><code>--spacing-md</code></td><td>1rem</td><td>Default stack spacing</td></tr><tr><td><code>--spacing-lg</code></td><td>1.5rem</td><td>Section padding</td></tr><tr><td><code>--spacing-xl</code></td><td>2rem</td><td>Layout gutters</td></tr></tbody></table>\n<h2>Layout guidelines</h2>\n<ul>\n<li>Align to the baseline grid whenever stacking interactive controls.</li>\n<li>For page sections, pair <code>padding-block</code> values with the appropriate viewport breakpoints (for example, <code>var(--spacing-xl)</code> on desktop, <code>var(--spacing-lg)</code> on mobile).</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.183Z",
+      "updatedAt": "2025-10-28T05:54:06.736Z"
+    },
+    {
+      "id": "page-patterns-form-validation",
+      "title": "Form validation",
+      "slug": "form-validation",
+      "path": "/patterns/form-validation",
+      "parentId": "section-patterns",
+      "order": 0,
+      "status": "published",
+      "body": "<h2>Overview</h2>\n<p>Form validation should prevent surprises: validate on blur for single fields and on submit for the entire form. Keep people in context by presenting inline errors near the relevant field. Use toast notifications only for submission-level failures.</p>\n<h2>Checklist</h2>\n<ul>\n<li>Present error messaging directly beneath the field using the <code>error</code> prop on <code>&lt;ui-text-field&gt;</code>.</li>\n<li>Move focus to the first errored field on submit and ensure the screen reader announces the message.</li>\n<li>Disable submit buttons only during processing—otherwise provide inline instructions so the user knows how to resolve issues.</li>\n</ul>",
+      "sections": [
+        {
+          "id": "section-f8312d95-03bc-40e3-b18c-c1fc45fe8a91",
+          "columns": [
+            {
+              "id": "column-a928be66-e732-4ad0-a803-1dc5e04bc7dd",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-d754d496-e4f7-43cb-9261-addffec716f2",
+                  "kind": "rich-text",
+                  "html": "<h2>Overview</h2>\n<p>Form validation should prevent surprises: validate on blur for single fields and on submit for the entire form. Keep people in context by presenting inline errors near the relevant field. Use toast notifications only for submission-level failures.</p>\n<h2>Checklist</h2>\n<ul>\n<li>Present error messaging directly beneath the field using the <code>error</code> prop on <code>&lt;ui-text-field&gt;</code>.</li>\n<li>Move focus to the first errored field on submit and ensure the screen reader announces the message.</li>\n<li>Disable submit buttons only during processing—otherwise provide inline instructions so the user knows how to resolve issues.</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "createdAt": "2025-10-28T04:49:24.193Z",
+      "updatedAt": "2025-10-28T05:54:06.736Z"
+    }
+  ],
+  "revisions": [],
+  "assets": []
+}

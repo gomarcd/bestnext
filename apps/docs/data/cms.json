@@ -1,0 +1,1007 @@
+{
+  "pages": [
+    {
+      "body": "<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+      "sections": [
+        {
+          "id": "section-fe24b553-8973-4408-b87b-c1fa9c837ce8",
+          "title": "Overview",
+          "columns": [
+            {
+              "id": "column-c68d5f24-8d7e-4149-a478-9c202f8f73fc",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-af73628d-f80a-4189-815c-2618f7aa2bab",
+                  "kind": "rich-text",
+                  "html": "<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": "static-admin",
+      "format": "html",
+      "id": "section-about",
+      "title": "About",
+      "slug": "about",
+      "path": "/about",
+      "parentId": null,
+      "order": 0,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-28T01:26:20.361Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-a1a4d10f-1fc9-4faf-8071-c4e1598d84a0",
+          "columns": [
+            {
+              "id": "column-8a53525c-edc1-4f9d-941c-ceab5a421f21",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-f9f0807b-658f-4c5b-8e63-b4d14f9bbff6",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "section-foundations",
+      "title": "Foundations",
+      "slug": "foundations",
+      "path": "/foundations",
+      "parentId": null,
+      "order": 1,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    },
+    {
+      "body": "\n",
+      "sections": [
+        {
+          "id": "section-1d865f6f-6371-4f24-ba04-f5bcda8be563",
+          "columns": [
+            {
+              "id": "column-7f6a64e3-6199-4d87-981e-78bde1bea02f",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-977a2dcb-0712-484e-a1ff-7698f6883a51",
+                  "kind": "rich-text",
+                  "html": "",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section-a92175dd-7052-4da1-9937-7fec5fd37490",
+          "title": "",
+          "columns": [
+            {
+              "id": "column-0db17ab1-d44a-4e84-a4c5-150fd1642935",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-c4f534ea-c6c2-48b6-8910-a35a45f7f292",
+                  "kind": "rich-text",
+                  "html": "",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": "static-admin",
+      "format": "html",
+      "id": "page-foundations-color",
+      "title": "Color",
+      "slug": "colors",
+      "path": "/foundations/colors",
+      "parentId": "section-foundations",
+      "order": 0,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-28T05:29:51.628Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-998cd5e9-8886-4dae-b0d2-98ce02b03d23",
+          "columns": [
+            {
+              "id": "column-3108c469-de10-4a0b-a8f2-faa0461d44bc",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-d08c28e5-a763-43e6-8254-9796a9cd4611",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "page-foundations-typography",
+      "title": "Typography",
+      "slug": "typography",
+      "path": "/foundations/typography",
+      "parentId": "section-foundations",
+      "order": 1,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-5034d40c-01ed-4d59-84e3-b56975da5c2d",
+          "columns": [
+            {
+              "id": "column-442b69e9-b8e2-4c9a-afa6-2e48e6f9fa5e",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-aab40ecd-2ee9-4dbe-b58c-da7198b988eb",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "page-foundations-spacing",
+      "title": "Spacing",
+      "slug": "spacing",
+      "path": "/foundations/spacing",
+      "parentId": "section-foundations",
+      "order": 2,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-d8f862e1-65cd-458e-a7c5-ec9d7699a150",
+          "columns": [
+            {
+              "id": "column-61aae808-a512-4655-b86c-6362005770b4",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-b94c6471-af6e-4995-a805-cb0bc0fc6fe4",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "section-components",
+      "title": "Components",
+      "slug": "components",
+      "path": "/components",
+      "parentId": null,
+      "order": 2,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-d7610042-e5ab-4a65-821d-4ff21d12ac69",
+          "columns": [
+            {
+              "id": "column-e2bfa2b3-0f6d-4d81-b64f-c2cf9903e582",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-a5cc0502-caee-4bb1-ba28-9f8f27925caa",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "page-components-accordion",
+      "title": "Accordion",
+      "slug": "accordion",
+      "path": "/components/accordion",
+      "parentId": "section-components",
+      "order": 1,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-25fbbd30-4a8f-442c-89a2-a6a05f451f06",
+          "columns": [
+            {
+              "id": "column-e81a1902-72a6-4782-9be2-3abcfd0718cd",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-63b54fa6-b027-4f46-b73f-ebf69fcb139b",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "page-components-button",
+      "title": "Button",
+      "slug": "button",
+      "path": "/components/button",
+      "parentId": "section-components",
+      "order": 2,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-e0e5a57f-76e0-4b6c-b48f-d205dab05873",
+          "columns": [
+            {
+              "id": "column-58615225-bf04-4496-9185-26c6f1b35af0",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-acb36251-9a89-4096-b7e0-4b19ca87de38",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "page-components-card",
+      "title": "Card",
+      "slug": "card",
+      "path": "/components/card",
+      "parentId": "section-components",
+      "order": 3,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-a0394b2b-5c90-4b22-b07e-d52fb64c1498",
+          "columns": [
+            {
+              "id": "column-88da60b4-f597-420d-b7f3-4ad8ef0e752e",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-37d7eb31-fd10-4434-bb9d-a71702485cee",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "page-components-text-field",
+      "title": "Text Field",
+      "slug": "text-field",
+      "path": "/components/text-field",
+      "parentId": "section-components",
+      "order": 4,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-58500ccf-1c1c-4844-87d4-7d2681c0f90e",
+          "columns": [
+            {
+              "id": "column-4d97d63a-894d-4c1c-81e4-5208156828f9",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-d799e0ad-d6b5-4040-a300-657695bd1a02",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "section-patterns",
+      "title": "Patterns",
+      "slug": "patterns",
+      "path": "/patterns",
+      "parentId": null,
+      "order": 3,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-54bada87-e2e5-46b8-bf7b-74a554d5a393",
+          "columns": [
+            {
+              "id": "column-ce871fd8-c00a-4c03-97b5-ad5f5832ad46",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-700c53c9-fff4-4945-a5c2-f24f76b55e01",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "page-patterns-form-validation",
+      "title": "Form validation",
+      "slug": "form-validation",
+      "path": "/patterns/form-validation",
+      "parentId": "section-patterns",
+      "order": 0,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-bc0feee5-7fa3-44d2-ad7a-24badadad7f1",
+          "columns": [
+            {
+              "id": "column-2317ea25-1a7d-4412-91d0-5476f567e019",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-26bbb20b-9272-433e-9682-5272f9d67fcd",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "section-accessibility",
+      "title": "Accessibility",
+      "slug": "accessibility",
+      "path": "/accessibility",
+      "parentId": null,
+      "order": 4,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-0ee718b5-1fbc-426c-b359-2943de721c17",
+          "columns": [
+            {
+              "id": "column-dccd856d-05d8-49e1-b9c3-ce66dcf03221",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-921fe976-1b88-4f30-bc3d-67db3dc81aa5",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "page-accessibility-accessibility-testing-workflow",
+      "title": "Accessibility testing workflow",
+      "slug": "testing",
+      "path": "/accessibility/testing",
+      "parentId": "section-accessibility",
+      "order": 0,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-3e41e8ba-5c59-49f9-837a-bb0d4099b95e",
+          "columns": [
+            {
+              "id": "column-58844995-a29c-4e01-a015-eaddca69387c",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-ed27b62c-b94f-492e-85b6-ad918e15f1cb",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "section-developers",
+      "title": "Developers",
+      "slug": "developers",
+      "path": "/developers",
+      "parentId": null,
+      "order": 5,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    },
+    {
+      "body": "",
+      "sections": [
+        {
+          "id": "section-18c9ebc4-c768-4873-9718-42c477a6ba22",
+          "columns": [
+            {
+              "id": "column-0b197c3d-c0db-45d5-a5d5-161570fa5fac",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-f0d26e49-eade-4c81-b40d-418f8c3fae6f",
+                  "kind": "rich-text",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "lastEditedBy": null,
+      "format": "html",
+      "id": "page-developers-getting-started",
+      "title": "Getting started",
+      "slug": "getting-started",
+      "path": "/developers/getting-started",
+      "parentId": "section-developers",
+      "order": 0,
+      "status": "published",
+      "createdAt": "2025-10-27T20:46:48.789Z",
+      "updatedAt": "2025-10-27T20:46:48.789Z"
+    }
+  ],
+  "revisions": [
+    {
+      "body": "<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+      "sections": [
+        {
+          "id": "section-d1064399-e020-4b31-88ab-0634d99ee1ec",
+          "columns": [
+            {
+              "id": "column-22a18182-066d-44af-a422-c4928c961642",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-fdbee056-e8f0-40c8-9ecb-ecfbd4103924",
+                  "kind": "rich-text",
+                  "html": "<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "format": "html",
+      "id": "2bb6e382-a677-468f-be25-2b54ed63ea7e",
+      "pageId": "section-about",
+      "version": 1,
+      "title": "About",
+      "status": "published",
+      "createdAt": "2025-10-27T21:33:12.278Z",
+      "authorId": "static-admin"
+    },
+    {
+      "body": "<div data-component=\"ui-accordion\"></div>\n<div data-component=\"ui-accordion\"></div>\n<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+      "sections": [
+        {
+          "id": "section-fe24b553-8973-4408-b87b-c1fa9c837ce8",
+          "columns": [
+            {
+              "id": "column-c68d5f24-8d7e-4149-a478-9c202f8f73fc",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-8b737146-0c2e-4167-ac77-1e0a5b674986",
+                  "kind": "component",
+                  "componentId": "ui-accordion",
+                  "props": {}
+                },
+                {
+                  "id": "block-ccb26480-8199-43ff-b30e-7971701a52c2",
+                  "kind": "component",
+                  "componentId": "ui-accordion",
+                  "props": {}
+                },
+                {
+                  "id": "block-af73628d-f80a-4189-815c-2618f7aa2bab",
+                  "kind": "rich-text",
+                  "html": "<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "dd122aa0-96bd-403a-b33d-201b8ed3e2c6",
+      "pageId": "section-about",
+      "version": 2,
+      "title": "About",
+      "status": "published",
+      "createdAt": "2025-10-27T22:36:00.881Z",
+      "authorId": "static-admin"
+    },
+    {
+      "body": "<p></p><h2><ol><li><b>Hi This is a test section&nbsp;</b></li></ol><div><br></div><div>dsjhdjdhsjsdhjdshdjshsd</div><div>dskhdsjdshjdshjds</div><div>dshdssdjhdsjhdsjhsd</div></h2><p></p>\nColumn 3\ncolumn 2\n<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+      "sections": [
+        {
+          "id": "section-3d2f7c45-f603-4cbb-8de2-07935fad2a05",
+          "columns": [
+            {
+              "id": "column-b973aa23-9742-4353-b562-7a5f0aa79f3f",
+              "span": 6,
+              "blocks": [
+                {
+                  "id": "block-753b8ad7-3a39-4668-a1fa-f1691f45619c",
+                  "kind": "rich-text",
+                  "html": "<p></p><h2><ol><li><b>Hi This is a test section&nbsp;</b></li></ol><div><br></div><div>dsjhdjdhsjsdhjdshdjshsd</div><div>dskhdsjdshjdshjds</div><div>dshdssdjhdsjhdsjhsd</div></h2><p></p>",
+                  "props": {}
+                },
+                {
+                  "id": "block-36fd7288-d49c-425b-995d-7b3be185d739",
+                  "kind": "rich-text",
+                  "html": "Column 3",
+                  "props": {}
+                }
+              ]
+            },
+            {
+              "id": "column-a1a2fcf6-dbab-42b6-a4dc-f8d7fcd822d6",
+              "span": 6,
+              "blocks": [
+                {
+                  "id": "block-d2a48208-98b8-4272-8785-7e553e84755f",
+                  "kind": "rich-text",
+                  "html": "column 2",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section-fe24b553-8973-4408-b87b-c1fa9c837ce8",
+          "columns": [
+            {
+              "id": "column-c68d5f24-8d7e-4149-a478-9c202f8f73fc",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-af73628d-f80a-4189-815c-2618f7aa2bab",
+                  "kind": "rich-text",
+                  "html": "<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "a9878df7-d75c-4098-8035-9ca31d1e5965",
+      "pageId": "section-about",
+      "version": 3,
+      "title": "About",
+      "status": "published",
+      "createdAt": "2025-10-27T22:38:14.901Z",
+      "authorId": "static-admin"
+    },
+    {
+      "body": "<p></p><h2><ol><li><b>Hi This is a test section&nbsp;</b></li></ol><div><br></div><div>dsjhdjdhsjsdhjdshdjshsd</div><div>dskhdsjdshjdshjds</div><div>dshdssdjhdsjhdsjhsd</div></h2><p></p>\nColumn 3\ncolumn 2\n<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+      "sections": [
+        {
+          "id": "section-3d2f7c45-f603-4cbb-8de2-07935fad2a05",
+          "columns": [
+            {
+              "id": "column-b973aa23-9742-4353-b562-7a5f0aa79f3f",
+              "span": 6,
+              "blocks": [
+                {
+                  "id": "block-753b8ad7-3a39-4668-a1fa-f1691f45619c",
+                  "kind": "rich-text",
+                  "html": "<p></p><h2><ol><li><b>Hi This is a test section&nbsp;</b></li></ol><div><br></div><div>dsjhdjdhsjsdhjdshdjshsd</div><div>dskhdsjdshjdshjds</div><div>dshdssdjhdsjhdsjhsd</div></h2><p></p>",
+                  "props": {}
+                },
+                {
+                  "id": "block-36fd7288-d49c-425b-995d-7b3be185d739",
+                  "kind": "rich-text",
+                  "html": "Column 3",
+                  "props": {}
+                }
+              ]
+            },
+            {
+              "id": "column-a1a2fcf6-dbab-42b6-a4dc-f8d7fcd822d6",
+              "span": 6,
+              "blocks": [
+                {
+                  "id": "block-d2a48208-98b8-4272-8785-7e553e84755f",
+                  "kind": "rich-text",
+                  "html": "column 2",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section-fe24b553-8973-4408-b87b-c1fa9c837ce8",
+          "columns": [
+            {
+              "id": "column-c68d5f24-8d7e-4149-a478-9c202f8f73fc",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-af73628d-f80a-4189-815c-2618f7aa2bab",
+                  "kind": "rich-text",
+                  "html": "<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "3d1bb3b8-3632-4721-b88b-484521061d06",
+      "pageId": "section-about",
+      "version": 4,
+      "title": "Test",
+      "status": "published",
+      "createdAt": "2025-10-28T00:37:26.865Z",
+      "authorId": "static-admin"
+    },
+    {
+      "body": "<p></p><h2><ol><li><b>Hi This is a test section&nbsp;</b></li></ol><div><br></div><div>dsjhdjdhsjsdhjdshdjshsd</div><div>dskhdsjdshjdshjds</div><div>dshdssdjhdsjhdsjhsd</div></h2><p></p>\nColumn 3\ncolumn 2\n<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+      "sections": [
+        {
+          "id": "section-3d2f7c45-f603-4cbb-8de2-07935fad2a05",
+          "columns": [
+            {
+              "id": "column-b973aa23-9742-4353-b562-7a5f0aa79f3f",
+              "span": 6,
+              "blocks": [
+                {
+                  "id": "block-753b8ad7-3a39-4668-a1fa-f1691f45619c",
+                  "kind": "rich-text",
+                  "html": "<p></p><h2><ol><li><b>Hi This is a test section&nbsp;</b></li></ol><div><br></div><div>dsjhdjdhsjsdhjdshdjshsd</div><div>dskhdsjdshjdshjds</div><div>dshdssdjhdsjhdsjhsd</div></h2><p></p>",
+                  "props": {}
+                },
+                {
+                  "id": "block-36fd7288-d49c-425b-995d-7b3be185d739",
+                  "kind": "rich-text",
+                  "html": "Column 3",
+                  "props": {}
+                }
+              ]
+            },
+            {
+              "id": "column-a1a2fcf6-dbab-42b6-a4dc-f8d7fcd822d6",
+              "span": 6,
+              "blocks": [
+                {
+                  "id": "block-d2a48208-98b8-4272-8785-7e553e84755f",
+                  "kind": "rich-text",
+                  "html": "column 2",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section-fe24b553-8973-4408-b87b-c1fa9c837ce8",
+          "columns": [
+            {
+              "id": "column-c68d5f24-8d7e-4149-a478-9c202f8f73fc",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-af73628d-f80a-4189-815c-2618f7aa2bab",
+                  "kind": "rich-text",
+                  "html": "<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "83cf8f80-479e-40ad-8554-a51cb83155d2",
+      "pageId": "section-about",
+      "version": 5,
+      "title": "Test Page",
+      "status": "published",
+      "createdAt": "2025-10-28T00:38:48.565Z",
+      "authorId": "static-admin"
+    },
+    {
+      "body": "<p></p><h2><ol><li><b>Hi This is a test section&nbsp;</b></li></ol><div><br></div><div>dsjhdjdhsjsdhjdshdjshsd</div><div>dskhdsjdshjdshjds</div><div>dshdssdjhdsjhdsjhsd</div></h2><p></p>\nColumn 3\ncolumn 2\n<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+      "sections": [
+        {
+          "id": "section-3d2f7c45-f603-4cbb-8de2-07935fad2a05",
+          "columns": [
+            {
+              "id": "column-b973aa23-9742-4353-b562-7a5f0aa79f3f",
+              "span": 6,
+              "blocks": [
+                {
+                  "id": "block-753b8ad7-3a39-4668-a1fa-f1691f45619c",
+                  "kind": "rich-text",
+                  "html": "<p></p><h2><ol><li><b>Hi This is a test section&nbsp;</b></li></ol><div><br></div><div>dsjhdjdhsjsdhjdshdjshsd</div><div>dskhdsjdshjdshjds</div><div>dshdssdjhdsjhdsjhsd</div></h2><p></p>",
+                  "props": {}
+                },
+                {
+                  "id": "block-36fd7288-d49c-425b-995d-7b3be185d739",
+                  "kind": "rich-text",
+                  "html": "Column 3",
+                  "props": {}
+                }
+              ]
+            },
+            {
+              "id": "column-a1a2fcf6-dbab-42b6-a4dc-f8d7fcd822d6",
+              "span": 6,
+              "blocks": [
+                {
+                  "id": "block-d2a48208-98b8-4272-8785-7e553e84755f",
+                  "kind": "rich-text",
+                  "html": "column 2",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section-fe24b553-8973-4408-b87b-c1fa9c837ce8",
+          "columns": [
+            {
+              "id": "column-c68d5f24-8d7e-4149-a478-9c202f8f73fc",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-af73628d-f80a-4189-815c-2618f7aa2bab",
+                  "kind": "rich-text",
+                  "html": "<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "1d10b7c8-22ac-46a6-8f0e-7d78376e3a5b",
+      "pageId": "section-about",
+      "version": 6,
+      "title": "This is a test page ",
+      "status": "published",
+      "createdAt": "2025-10-28T00:47:58.689Z",
+      "authorId": "static-admin"
+    },
+    {
+      "body": "<p></p><h2><ol><li><b>Hi This is a test section&nbsp;</b></li></ol><div><br></div><div>dsjhdjdhsjsdhjdshdjshsd</div><div>dskhdsjdshjdshjds</div><div>dshdssdjhdsjhdsjhsd</div></h2><p></p>\nColumn 3\ncolumn 2\n<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+      "sections": [
+        {
+          "id": "section-3d2f7c45-f603-4cbb-8de2-07935fad2a05",
+          "columns": [
+            {
+              "id": "column-b973aa23-9742-4353-b562-7a5f0aa79f3f",
+              "span": 6,
+              "blocks": [
+                {
+                  "id": "block-753b8ad7-3a39-4668-a1fa-f1691f45619c",
+                  "kind": "rich-text",
+                  "html": "<p></p><h2><ol><li><b>Hi This is a test section&nbsp;</b></li></ol><div><br></div><div>dsjhdjdhsjsdhjdshdjshsd</div><div>dskhdsjdshjdshjds</div><div>dshdssdjhdsjhdsjhsd</div></h2><p></p>",
+                  "props": {}
+                },
+                {
+                  "id": "block-36fd7288-d49c-425b-995d-7b3be185d739",
+                  "kind": "rich-text",
+                  "html": "Column 3",
+                  "props": {}
+                }
+              ]
+            },
+            {
+              "id": "column-a1a2fcf6-dbab-42b6-a4dc-f8d7fcd822d6",
+              "span": 6,
+              "blocks": [
+                {
+                  "id": "block-d2a48208-98b8-4272-8785-7e553e84755f",
+                  "kind": "rich-text",
+                  "html": "column 2",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section-fe24b553-8973-4408-b87b-c1fa9c837ce8",
+          "columns": [
+            {
+              "id": "column-c68d5f24-8d7e-4149-a478-9c202f8f73fc",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-af73628d-f80a-4189-815c-2618f7aa2bab",
+                  "kind": "rich-text",
+                  "html": "<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "9e57ea61-d52a-4008-be5f-65d636553d25",
+      "pageId": "section-about",
+      "version": 7,
+      "title": "About",
+      "status": "published",
+      "createdAt": "2025-10-28T00:57:54.525Z",
+      "authorId": "static-admin"
+    },
+    {
+      "body": "<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+      "sections": [
+        {
+          "id": "section-fe24b553-8973-4408-b87b-c1fa9c837ce8",
+          "title": "Overview",
+          "columns": [
+            {
+              "id": "column-c68d5f24-8d7e-4149-a478-9c202f8f73fc",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-af73628d-f80a-4189-815c-2618f7aa2bab",
+                  "kind": "rich-text",
+                  "html": "<div class=\"space-y-16\"><section class=\"rounded-3xl border border-ds-border bg-ds-surface px-8 py-12 shadow-sm md:px-12\"><div class=\"max-w-3xl space-y-6\"><span class=\"inline-flex items-center rounded-full bg-ds-primary/10 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-ds-primary\">Renesas Design System</span><h1 class=\"text-4xl font-semibold text-slate-900 md:text-5xl\">Renesas Design System</h1><p class=\"text-lg text-slate-600\"><span style=\"color: rgb(41, 42, 46); font-family: &quot;Atlassian Sans&quot;, ui-sans-serif, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Ubuntu, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; white-space-collapse: preserve;\">The Renesas Design System is a comprehensive collection of reusable components, guidelines, and assets that enable our team to create consistent, scalable design solutions for renesas.com. It provides a unified set of standards, principles, and best practices for both designers and developers. As the single source of truth for design and usability, it ensures alignment across teams and supports efficient, user-centered product development.</span></p><div class=\"flex flex-wrap gap-3\"><a class=\"rounded-full bg-ds-primary px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ds-primary-dark\" href=\"/components\">Explore components</a><a class=\"rounded-full border border-ds-border px-5 py-2 text-sm font-semibold text-slate-700 transition hover:border-ds-primary hover:text-ds-primary\" href=\"/developers/getting-started\">Implementation guide</a></div></div></section><section class=\"grid gap-4 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Current version</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">v1.0.0-preview</p><p class=\"mt-2 text-sm text-slate-600\">Includes refreshed foundations, accessible components, and our Drupal starter kit</p></div><div class=\"rounded-2xl border border-ds-border bg-gradient-to-br from-ds-primary to-ds-primary-dark p-6 text-white shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide\"><br></p></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><p class=\"text-xs font-semibold uppercase tracking-wide text-slate-500\">Changelog coverage</p><p class=\"mt-3 text-2xl font-semibold text-slate-900\">1 releases</p><p class=\"mt-2 text-sm text-slate-600\">Historic entries and release notes are captured below so teams can adopt updates with confidence.</p></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Changelog</h2><p class=\"mt-2 text-sm text-slate-600\">Every update to tokens, foundations, or components ships with context and guidance.</p></header><div class=\"space-y-4\"><article class=\"rounded-2xl border border-ds-border bg-white p-6 shadow-sm transition hover:border-ds-primary/60\"><a class=\"text-xl font-semibold text-slate-900\" href=\"/changelog/v1-release\">v1.0.0-preview</a><p class=\"mt-2 text-sm text-slate-600\">Initial preview release covering six core components, token pipeline, and Drupal bridge scaffolding.</p></article></div></section><section class=\"space-y-6\"><header><h2 class=\"text-2xl font-semibold text-slate-900\">Core team</h2><p class=\"mt-2 text-sm text-slate-600\">Reach out for onboarding, design pairing, accessibility reviews, and roadmap planning.</p></header><div class=\"grid gap-6 md:grid-cols-3\"><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Jordan Lee</p><p class=\"text-sm text-slate-600\">Lead UX Designer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:jordan.lee@virtualds.com\">jordan.lee@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Priya Menon</p><p class=\"text-sm text-slate-600\">Design Ops Partner</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:priya.menon@virtualds.com\">priya.menon@virtualds.com</a></div><div class=\"rounded-2xl border border-ds-border bg-ds-surface p-6 shadow-sm\"><div class=\"flex items-center gap-4\"><div class=\"h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-slate-200\" style=\"background-image: url(&quot;https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&amp;fit=crop&amp;w=200&amp;q=80&quot;); background-size: cover; background-position: center center;\"></div><div><p class=\"text-lg font-semibold text-slate-900\">Diego Martins</p><p class=\"text-sm text-slate-600\">Lead UX Engineer</p></div></div><a class=\"mt-4 inline-flex items-center text-sm font-semibold text-ds-primary transition hover:text-ds-primary-dark\" href=\"mailto:diego.martins@virtualds.com\">diego.martins@virtualds.com</a></div></div></section><section class=\"space-y-6 rounded-3xl border border-ds-border bg-white px-8 py-10 shadow-sm md:px-12\"><header class=\"space-y-2\"><h2 class=\"text-2xl font-semibold text-slate-900\">Contribution model</h2><p class=\"text-sm text-slate-600\">We partner with teams to keep the system cohesive, accessible, and ready for production.</p></header><ol class=\"space-y-4 text-sm text-slate-700\"><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">1</span><span class=\"leading-relaxed\">Open a proposal in GitHub using the RFC template with problem framing and desired outcomes.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">2</span><span class=\"leading-relaxed\">Prototype alongside the design system core team to validate accessibility, interaction, and visual fit.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">3</span><span class=\"leading-relaxed\">Partner with engineering peers to align code standards, tokens, and test coverage.</span></li><li class=\"flex gap-4\"><span class=\"mt-1 inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-ds-primary/10 text-xs font-semibold text-ds-primary\">4</span><span class=\"leading-relaxed\">Ship with documentation updates, usage guidance, and a changelog entry so teams can adopt confidently.</span></li></ol></section></div>",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "9a346b83-cce8-4eab-9428-8396cd26e2bf",
+      "pageId": "section-about",
+      "version": 8,
+      "title": "About",
+      "status": "published",
+      "createdAt": "2025-10-28T01:26:20.361Z",
+      "authorId": "static-admin"
+    },
+    {
+      "body": "\n",
+      "sections": [
+        {
+          "id": "section-1d865f6f-6371-4f24-ba04-f5bcda8be563",
+          "columns": [
+            {
+              "id": "column-7f6a64e3-6199-4d87-981e-78bde1bea02f",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-977a2dcb-0712-484e-a1ff-7698f6883a51",
+                  "kind": "rich-text",
+                  "html": "",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "section-a92175dd-7052-4da1-9937-7fec5fd37490",
+          "title": "",
+          "columns": [
+            {
+              "id": "column-0db17ab1-d44a-4e84-a4c5-150fd1642935",
+              "span": 12,
+              "blocks": [
+                {
+                  "id": "block-c4f534ea-c6c2-48b6-8910-a35a45f7f292",
+                  "kind": "rich-text",
+                  "html": "",
+                  "props": {}
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "id": "805f6480-7b2d-4f3f-b00a-6d0a7d512932",
+      "pageId": "page-foundations-color",
+      "version": 1,
+      "title": "Color",
+      "status": "published",
+      "createdAt": "2025-10-28T05:29:51.628Z",
+      "authorId": "static-admin"
+    }
+  ],
+  "assets": []
+}

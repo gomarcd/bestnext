@@ -1,0 +1,21 @@
+{#
+  @file
+  Modal wrapper.
+  Variables:
+    - headline: (string)
+    - closable: (bool)
+    - body: (string)
+    - footer: (string)
+#}
+
+{% set closable = closable|default(true) %}
+
+<ui-modal
+  headline="{{ headline|default('Modal heading') }}"
+  {% if not closable %}closable="false"{% endif %}
+>
+  {{ body|default('<p>Modal content</p>')|raw }}
+  {% if footer is defined %}
+    <div slot="footer">{{ footer|raw }}</div>
+  {% endif %}
+</ui-modal>

@@ -1,0 +1,21 @@
+{#
+  @file
+  Accordion wrapper.
+  Variables:
+    - items: (array) Collection of accordion items with keys: title, content, disabled.
+    - multi: (bool) Allow multiple items to remain open.
+#}
+
+{% set items = items|default([]) %}
+
+<ui-accordion {% if multi %}multi{% endif %}>
+  {% for item in items %}
+    <ui-accordion-item
+      heading="{{ item.title }}"
+      {% if item.disabled %}disabled{% endif %}
+      {% if item.open %}open{% endif %}
+    >
+      {{ item.content|raw }}
+    </ui-accordion-item>
+  {% endfor %}
+</ui-accordion>

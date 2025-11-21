@@ -1,0 +1,87 @@
+---
+title: Accordion
+id: accordion
+status: beta
+summary: Accordions progressively disclose grouped content while maintaining context within a page.
+since: 1.0.0
+figma: https://www.figma.com/file/accordion
+preview: /previews/accordion.svg
+tags:
+  - disclosure
+  - layout
+componentName: ui-accordion
+props:
+  - name: multi
+    type: boolean
+    default: 'false'
+    description: Allow multiple accordion items to remain expanded simultaneously.
+    required: false
+events: []
+slots: []
+tokens:
+  - name: --cmp-accordion-header-background
+    alias: --surface-subtle
+    description: Header background color.
+  - name: --cmp-accordion-header-foreground
+    alias: --text-primary
+    description: Header text color.
+  - name: --cmp-accordion-border-color
+    alias: --border-default
+    description: Divider color between accordion items.
+dependencies:
+  - '@virtual-ds/components'
+  - '@virtual-ds/tokens'
+code:
+  html: |
+    <ui-accordion>
+      <ui-accordion-item heading="Section title">
+        <p>Supporting copy lives inside the item content.</p>
+      </ui-accordion-item>
+      <ui-accordion-item heading="Second section">
+        <p>Accordions can contain complex markup.</p>
+      </ui-accordion-item>
+    </ui-accordion>
+  ts: |
+    import '@virtual-ds/components/ui-accordion';
+  twig: |
+    <ui-accordion>
+      {% for item in items %}
+        <ui-accordion-item heading="{{ item.title }}">
+          {{ item.content }}
+        </ui-accordion-item>
+      {% endfor %}
+    </ui-accordion>
+  css: |
+    ui-accordion-item + ui-accordion-item {
+      margin-top: 0.5rem;
+    }
+a11y:
+  aria:
+    - Each header renders a `button` with `aria-controls` pointing to the panel region.
+    - Panels use `role="region"` with `aria-labelledby` for assistive technology pairing.
+  keyboard:
+    - Up/Down and Left/Right arrow keys move focus between headers.
+    - Home and End jump to the first and last header respectively.
+  notes:
+    - Preserve heading hierarchy by wrapping accordions within appropriate sections.
+    - Avoid nesting multiple accordions within each other when possible.
+related:
+  - tabs
+  - button
+---
+
+## Overview
+
+Accordions help keep long-form content skimmable by showing one section at a time. Keep section titles short and descriptive—people should understand what they gain before expanding.
+
+Reserve accordions for content that benefits from a progressive disclosure pattern (for example FAQs, filter panels, or secondary instructional text). Prefer inline expansion or navigation pages when the content is critical to task completion.
+
+## UX Guidelines
+
+- Limit the number of items to prevent excessive scrolling.
+- If very important content is hidden behind an accordion, reconsider whether it should be default-open.
+- Provide clear feedback for disabled accordion items and explain why they cannot be opened.
+
+## Accessibility details
+
+The component follows the WAI-ARIA accordion pattern using roving tab index. Ensure that focus order remains logical, especially when inserting custom interactive controls inside accordion panels. If panels contain forms, confirm that validation states are announced even when the parent item collapses.

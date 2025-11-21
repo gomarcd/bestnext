@@ -1,0 +1,19 @@
+<svg width="400" height="220" viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="220" rx="24" fill="url(#paint0_linear)" />
+  <g filter="url(#shadow)">
+    <rect x="88" y="64" width="224" height="92" rx="12" fill="#FFFFFF" />
+  </g>
+  <text x="200" y="120" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" fill="#1D2B73">Component Preview</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="400" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF2FF" />
+      <stop offset="1" stop-color="#E3E9FF" />
+    </linearGradient>
+    <filter id="shadow" x="78" y="54" width="244" height="112" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="5" />
+      <feComposite in2="SourceAlpha" operator="in" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" />
+    </filter>
+  </defs>
+</svg>

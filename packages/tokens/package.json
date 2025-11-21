@@ -1,0 +1,32 @@
+{
+  "name": "@virtual-ds/tokens",
+  "version": "0.0.0",
+  "description": "Design tokens for the Renesas Design System",
+  "type": "module",
+  "private": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./css": "./dist/css/tokens.css",
+    "./scss": "./dist/scss/_index.scss",
+    "./json": "./dist/json/tokens.json",
+    "./ts": "./dist/ts/index.ts"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.mjs",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "style-dictionary": "^3.9.1"
+  }
+}

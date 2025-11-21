@@ -1,0 +1,18 @@
+{
+  "name": "@virtual-ds/drupal-bridge",
+  "version": "0.0.0",
+  "description": "Drupal integration package for the Renesas Design System",
+  "type": "module",
+  "private": false,
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "clean": "rimraf dist build"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  }
+}

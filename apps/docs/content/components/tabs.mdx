@@ -1,0 +1,100 @@
+---
+title: Tabs
+id: tabs
+status: beta
+summary: Tabs let people switch between related content sections without leaving the current context.
+since: 1.0.0
+figma: https://www.figma.com/file/tabs
+preview: /previews/tabs.svg
+tags:
+  - navigation
+  - disclosure
+componentName: ui-tabs
+props:
+  - name: selectedIndex
+    type: number
+    default: '0'
+    description: Index of the active tab/panel.
+    required: false
+events:
+  - name: ui-tabs-change
+    type: CustomEvent<{ index: number }>
+    description: Emitted when a new tab is activated via click or keyboard.
+slots:
+  - name: tab
+    description: Individual `<ui-tab>` definitions.
+  - name: panel
+    description: `<ui-tab-panel>` content matching the tab order.
+tokens:
+  - name: --cmp-tabs-active-indicator
+    alias: --brand-primary-600
+  - name: --cmp-tabs-active-foreground
+    alias: --text-primary
+  - name: --cmp-tabs-inactive-foreground
+    alias: --text-secondary
+dependencies:
+  - '@virtual-ds/components'
+  - '@virtual-ds/tokens'
+code:
+  html: |
+    <ui-tabs>
+      <ui-tab>Overview</ui-tab>
+      <ui-tab>Code</ui-tab>
+      <ui-tab>Accessibility</ui-tab>
+
+      <ui-tab-panel>
+        <p>Overview content.</p>
+      </ui-tab-panel>
+      <ui-tab-panel>
+        <code>console.log('Hello');</code>
+      </ui-tab-panel>
+      <ui-tab-panel>
+        <p>Accessibility guidance.</p>
+      </ui-tab-panel>
+    </ui-tabs>
+  ts: |
+    import '@virtual-ds/components/ui-tabs';
+  twig: |
+    <ui-tabs>
+      {% for tab in tabs %}
+        <ui-tab>{{ tab.label }}</ui-tab>
+      {% endfor %}
+      {% for tab in tabs %}
+        <ui-tab-panel>{{ tab.panel|raw }}</ui-tab-panel>
+      {% endfor %}
+    </ui-tabs>
+  css: |
+    ui-tab-panel {
+      margin-top: 1rem;
+    }
+a11y:
+  aria:
+    - Uses `role="tablist"`, `role="tab"`, and `role="tabpanel"` semantics.
+    - Tabs and panels are linked via `aria-controls` / `aria-labelledby`.
+  keyboard:
+    - Arrow keys cycle focus between tabs (wrapping).
+    - Home/End jump to first or last tab respectively.
+    - Enter or Space activates the focused tab.
+  notes:
+    - Keep the number of tabs manageable; consider progressive disclosure if more than five.
+    - Provide unique labels for each tab so screen readers can distinguish them.
+related:
+  - accordion
+  - button
+---
+
+## Overview
+
+Tabs segment closely related information while keeping people within a single view. Each tab should expose content that shares the same context and data set. Avoid mixing unrelated workflows within the same tab strip.
+
+Use short, descriptive labels and avoid multi-line names. If tab content contains forms, preserve state when switching tabs to prevent data loss.
+
+## UX Guidelines
+
+- Order tabs by task frequency or process sequence.
+- Keep tab labels in sentence case and avoid icons alone; pair icons with text if desired.
+- Display a clear indicator for the active tab—color and underline combination works best.
+
+## Accessibility details
+
+The component follows the WAI-ARIA “Tabs with Automatic Activation” pattern. Content for inactive panels stays in the DOM but hidden. Ensure that interactive elements inside panels have unique IDs if referenced by aria attributes. Provide focus styles that are visible on both light and dark backgrounds.

@@ -1,0 +1,28 @@
+---
+title: Typography
+section: Foundations
+description: Type scales, font stacks, and usage guidance.
+order: 2
+---
+
+## Font stacks
+
+Our sans-serif stack defaults to Inter with system fallbacks:
+
+```css
+font-family: var(--font-family-sans);
+```
+
+Use the monospace stack for code snippets, console output, or token names.
+
+## Type scale
+
+| Token | Size | Usage |
+|-------|------|-------|
+| `--font-size-xs` | 0.75rem | Legal text, captions |
+| `--font-size-sm` | 0.875rem | Input labels, helper text |
+| `--font-size-md` | 1rem | Body copy |
+| `--font-size-lg` | 1.125rem | Section headings |
+| `--font-size-xl` | 1.5rem | Page titles |
+
+Line heights default to `--font-line-height-normal`. Increase to `relaxed` for paragraphs over 80 characters wide.

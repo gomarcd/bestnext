@@ -1,0 +1,24 @@
+---
+title: Color
+section: Foundations
+description: Brand palette, semantic roles, and usage guidance for color.
+order: 1
+---
+
+## Palette
+
+We derive product color from `@virtual-ds/tokens`. Brand blues appear as primary actions, while neutral surfaces provide structure for content.
+
+```json
+tokens.brand.primary = {
+  "400": "#3B82F6",
+  "500": "#2563EB",
+  "600": "#1D4ED8"
+}
+```
+
+Use semantic aliases for UI states instead of referencing raw brand values (for example `--state-success`). Maintain a minimum contrast ratio of 4.5:1 for text on backgrounds.
+
+## Theming
+
+Tokens ship with light and dark modes. Apply the correct theme by toggling the `data-theme` attribute on the document element. Custom themes can be layered by overriding semantic tokens while leaving component tokens intact.

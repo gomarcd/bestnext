@@ -1,0 +1,31 @@
+{
+  "name": "storybook",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Storybook configuration for Renesas Design System components",
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "lint": "eslint .",
+    "test": "test-storybook --quiet --max-workers=2",
+    "test:a11y": "test-storybook --watch"
+  },
+  "dependencies": {
+    "@virtual-ds/components": "workspace:*",
+    "@virtual-ds/tokens": "workspace:*",
+    "lit": "^3.1.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^8.0.0",
+    "@storybook/addon-essentials": "^8.0.0",
+    "@storybook/test-runner": "^0.16.0",
+    "@storybook/testing-library": "^0.2.2",
+    "@storybook/web-components-vite": "^8.0.0",
+    "@types/node": "^20.11.19",
+    "eslint": "^8.56.0",
+    "rimraf": "^5.0.5",
+    "storybook": "^8.0.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  }
+}

@@ -1,0 +1,125 @@
+---
+title: Text Field
+id: text-field
+status: beta
+summary: Text fields capture short, single-line user input with optional helper and error messaging.
+since: 1.0.0
+figma: https://www.figma.com/file/text-field
+preview: /previews/text-field.svg
+tags:
+  - forms
+  - input
+componentName: ui-text-field
+props:
+  - name: label
+    type: string
+    default: "''"
+    description: Visible label rendered above the input.
+    required: false
+  - name: value
+    type: string
+    default: "''"
+    description: Current input value (controlled usage).
+    required: false
+  - name: placeholder
+    type: string
+    default: "''"
+    description: Hint text displayed when empty.
+    required: false
+  - name: helper
+    type: string
+    default: "''"
+    description: Supplemental hint rendered below the field.
+    required: false
+  - name: error
+    type: string
+    default: "''"
+    description: Error message; toggles error state when provided.
+    required: false
+  - name: disabled
+    type: boolean
+    default: 'false'
+    description: Disables user input and conveys a muted state.
+    required: false
+  - name: required
+    type: boolean
+    default: 'false'
+    description: Marks the field as required and adds an indicator next to the label.
+    required: false
+events:
+  - name: input
+    type: InputEvent
+    description: Fires on each keystroke; mirror this for controlled usage.
+  - name: change
+    type: Event
+    description: Fires when the field loses focus after the value changes.
+slots:
+  - name: prefix
+    description: Optional leading adornment (icon, text, etc.).
+  - name: suffix
+    description: Optional trailing adornment.
+tokens:
+  - name: --cmp-text-field-background
+    alias: --surface-background
+  - name: --cmp-text-field-border-default
+    alias: --border-default
+  - name: --cmp-text-field-border-focus
+    alias: --border-focus
+  - name: --cmp-text-field-border-error
+    alias: --state-danger
+  - name: --cmp-text-field-placeholder
+    alias: --text-muted
+dependencies:
+  - '@virtual-ds/tokens'
+  - '@virtual-ds/components'
+code:
+  html: |
+    <ui-text-field
+      label="Email"
+      placeholder="you@example.com"
+      helper="We will only use this to send notifications"
+      required
+    />
+  ts: |
+    import '@virtual-ds/components/ui-text-field';
+  twig: |
+    <ui-text-field
+      label="{{ label }}"
+      placeholder="{{ placeholder }}"
+      helper="{{ helper }}"
+      error="{{ error }}"
+      {% if required %}required{% endif %}
+    ></ui-text-field>
+  css: |
+    ui-text-field {
+      max-width: 320px;
+    }
+a11y:
+  aria:
+    - Associates helper and error text via `aria-describedby`.
+    - Applies `aria-invalid="true"` when `error` is present.
+  keyboard:
+    - Fully keyboard accessible with standard text input behaviors.
+  notes:
+    - Labels should remain visible; avoid relying on placeholders as labels.
+    - Provide helpful error copy that guides remediation.
+related:
+  - modal
+  - button
+---
+
+## Overview
+
+Text fields support short responses like names, emails, and search queries. Always pair the input with a visible label to maintain context and ensure accessibility. Use helper text sparingly to clarify formatting expectations or consequences.
+
+When validation fails, present specific error messages and keep helper text visible so people can compare the correct format with the issue.
+
+## UX Guidelines
+
+- Use sentence case labels and avoid punctuation unless the label is a question.
+- Reserve placeholder text for examples, not essential instructions.
+- Align grouped fields to create a predictable scan pattern.
+
+## Accessibility details
+
+The component exposes `aria-describedby` for helper and error content. When the error string changes, screen readers are notified automatically. Keep the helper and error text concise so it remains readable for assistive technology.

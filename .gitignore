@@ -1,0 +1,24 @@
+/node_modules
+pnpm-lock.yaml
+.DS_Store
+.env*
+dist
+.next
+.storybook-cache
+coverage
+.tmp
+.cache
+playwright-report
+/.turbo
+
+# Generated artifacts
+packages/**/dist
+apps/docs/.contentlayer
+apps/docs/.next
+apps/docs/out
+apps/api/.next
+
+# Drupal build artifacts
+packages/drupal-bridge/build
+packages/drupal-bridge/dist
+packages/drupal-bridge/*.tar.gz

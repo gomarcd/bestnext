@@ -1,0 +1,16 @@
+.vd-demo {
+  font-family: var(--font-family-sans, system-ui, sans-serif);
+  display: grid;
+  gap: 1.5rem;
+}
+
+.vd-demo__section {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background: rgba(15, 23, 42, 0.04);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.vd-demo__section ui-button + ui-button {
+  margin-left: 0.75rem;
+}

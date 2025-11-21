@@ -1,0 +1,34 @@
+{#
+  Demonstration markup showcasing multiple components.
+#}
+
+<section class="vd-demo">
+  <h1>Renesas Design System Demo</h1>
+  <p>Example usage of tokens with Web Components rendered through Twig wrappers.</p>
+
+  <div class="vd-demo__section">
+    <h2>Buttons</h2>
+    {% include 'button.twig' with { label: 'Primary action' } %}
+    {% include 'button.twig' with { label: 'Secondary', variant: 'secondary' } %}
+    {% include 'button.twig' with { label: 'Ghost', variant: 'ghost' } %}
+  </div>
+
+  <div class="vd-demo__section">
+    <h2>Accordion</h2>
+    {% include 'accordion.twig' with {
+      items: [
+        { title: 'First item', content: '<p>Accordions progressively reveal content.</p>' },
+        { title: 'Second item', content: '<p>Items accept arbitrary markup.</p>' }
+      ]
+    } %}
+  </div>
+
+  <div class="vd-demo__section">
+    <h2>Modal</h2>
+    {% include 'modal.twig' with {
+      headline: 'Confirm action',
+      body: '<p>Use modals sparingly to focus attention.</p>',
+      footer: '<ui-button variant="ghost" size="sm">Cancel</ui-button><ui-button size="sm">Confirm</ui-button>'
+    } %}
+  </div>
+</section>

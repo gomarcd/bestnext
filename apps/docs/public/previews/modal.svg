@@ -1,0 +1,26 @@
+<svg width="400" height="220" viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="220" rx="24" fill="url(#paint0_linear)" />
+  <g filter="url(#shadow)">
+    <rect x="70" y="40" width="260" height="160" rx="16" fill="#FFFFFF" />
+  </g>
+  <rect x="90" y="60" width="120" height="12" rx="6" fill="#0F172A" opacity="0.1" />
+  <rect x="90" y="84" width="220" height="10" rx="5" fill="#E2E8F0" />
+  <rect x="90" y="102" width="220" height="10" rx="5" fill="#E2E8F0" />
+  <rect x="90" y="120" width="220" height="10" rx="5" fill="#E2E8F0" />
+  <rect x="180" y="154" width="70" height="28" rx="6" fill="#2563EB" opacity="0.9" />
+  <text x="215" y="173" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">Confirm</text>
+  <rect x="108" y="154" width="60" height="28" rx="6" fill="#F1F5F9" />
+  <text x="138" y="172" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#475569">Cancel</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="400" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF3FF" />
+      <stop offset="1" stop-color="#E5ECFF" />
+    </linearGradient>
+    <filter id="shadow" x="60" y="30" width="280" height="180" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="5" />
+      <feComposite in2="SourceAlpha" operator="in" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" />
+    </filter>
+  </defs>
+</svg>

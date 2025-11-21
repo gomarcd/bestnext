@@ -1,0 +1,92 @@
+---
+title: Card
+id: card
+status: stable
+summary: Cards group related content and actions into a contained surface with optional elevation or outlines.
+since: 1.0.0
+figma: https://www.figma.com/file/card
+preview: /previews/card.svg
+tags:
+  - surface
+  - layout
+componentName: ui-card
+props:
+  - name: variant
+    type: "'elevated' | 'outlined' | 'subtle'"
+    default: "'elevated'"
+    description: Visual treatment for the card surface.
+    required: false
+  - name: interactive
+    type: boolean
+    default: 'false'
+    description: Adds hover affordances to communicate clickability.
+    required: false
+slots:
+  - name: header
+    description: Optional heading region.
+  - name: footer
+    description: Optional actions or supplementary information.
+tokens:
+  - name: --cmp-card-background
+    alias: --surface-background
+  - name: --cmp-card-border
+    alias: --border-default
+  - name: --cmp-card-shadow
+    alias: --elevation-md
+  - name: --cmp-card-shadow-hover
+    alias: --elevation-lg
+dependencies:
+  - '@virtual-ds/components'
+  - '@virtual-ds/tokens'
+code:
+  html: |
+    <ui-card variant="elevated">
+      <span slot="header">Card heading</span>
+      <p>Supporting information about the subject lives here.</p>
+      <div slot="footer">
+        <ui-button size="sm" variant="ghost">Dismiss</ui-button>
+        <ui-button size="sm">View details</ui-button>
+      </div>
+    </ui-card>
+  ts: |
+    import '@virtual-ds/components/ui-card';
+  twig: |
+    {% embed '@ds/card.twig' with {
+      variant: 'outlined',
+      header: 'Card heading'
+    } %}
+      {% block body %}
+        Supporting information about the subject lives here.
+      {% endblock %}
+    {% endembed %}
+  css: |
+    ui-card[interactive] {
+      cursor: pointer;
+    }
+a11y:
+  aria:
+    - Treat cards as semantic `article` elements when they contain standalone content.
+  keyboard:
+    - When interactive, ensure cards are focusable and include a discernible label.
+  notes:
+    - Provide alternative text for media inside cards and ensure color contrast for borders.
+related:
+  - button
+  - modal
+---
+
+## Overview
+
+Cards provide a flexible container for summarizing entities such as projects, resources, or announcements. They can include imagery, supporting text, and action buttons. Keep the content hierarchy consistent: header, body, then footer.
+
+When cards act as navigation triggers, mark the `interactive` flag and ensure the entire card is focusable. Include descriptive text that conveys the destination or action taken.
+
+## UX Guidelines
+
+- Maintain consistent padding and typography across card variants to reinforce familiarity.
+- Align card actions horizontally and prefer primary buttons on the right for left-to-right locales.
+- Use the subtle variant on surfaces that already provide elevation to avoid competing shadows.
+
+## Accessibility details
+
+Interactive cards must provide a clear focus state and respond to both click and keyboard activation (Enter/Space). When cards contain nested interactive elements, ensure that the card itself is not focusable to prevent focus traps. Use ARIA labelling if the card’s purpose is not apparent from visible text.

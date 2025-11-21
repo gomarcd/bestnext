@@ -1,0 +1,16 @@
+---
+title: Form validation
+section: Patterns
+description: Displaying validation messaging and recovery guidance for forms.
+order: 1
+---
+
+## Overview
+
+Form validation should prevent surprises: validate on blur for single fields and on submit for the entire form. Keep people in context by presenting inline errors near the relevant field. Use toast notifications only for submission-level failures.
+
+## Checklist
+
+- Present error messaging directly beneath the field using the `error` prop on `<ui-text-field>`.
+- Move focus to the first errored field on submit and ensure the screen reader announces the message.
+- Disable submit buttons only during processing—otherwise provide inline instructions so the user knows how to resolve issues.

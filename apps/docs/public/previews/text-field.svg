@@ -1,0 +1,21 @@
+<svg width="400" height="220" viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="220" rx="24" fill="url(#paint0_linear)" />
+  <g filter="url(#shadow)">
+    <rect x="84" y="80" width="232" height="80" rx="12" fill="#FFFFFF" />
+  </g>
+  <text x="104" y="110" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#475569" opacity="0.8">Email</text>
+  <rect x="104" y="118" width="192" height="32" rx="6" fill="#F1F5F9" stroke="#C1CCFF" />
+  <text x="114" y="138" font-family="Inter, Arial, sans-serif" font-size="12" fill="#64748B">you@example.com</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="400" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3F7FF" />
+      <stop offset="1" stop-color="#E5ECFF" />
+    </linearGradient>
+    <filter id="shadow" x="74" y="70" width="252" height="100" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="5" />
+      <feComposite in2="SourceAlpha" operator="in" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" />
+    </filter>
+  </defs>
+</svg>

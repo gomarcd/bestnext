@@ -1,0 +1,119 @@
+---
+title: Button
+id: button
+status: stable
+summary: Buttons trigger an immediate action or submit data within a flow. They should be concise, descriptive, and limited per view.
+since: 1.0.0
+figma: https://www.figma.com/file/button
+preview: /previews/button.svg
+tags:
+  - action
+  - inputs
+componentName: ui-button
+props:
+  - name: variant
+    type: "'primary' | 'secondary' | 'ghost'"
+    default: "'primary'"
+    description: Visual treatment of the button.
+    required: false
+  - name: size
+    type: "'sm' | 'md' | 'lg'"
+    default: "'md'"
+    description: Controls padding and typography scale.
+    required: false
+  - name: disabled
+    type: boolean
+    default: 'false'
+    description: Disables pointer and keyboard interaction.
+    required: false
+  - name: fullWidth
+    type: boolean
+    default: 'false'
+    description: Expands the control to fill the available horizontal space.
+    required: false
+  - name: type
+    type: "'button' | 'submit' | 'reset'"
+    default: "'button'"
+    description: Native button type for form behaviors.
+    required: false
+events:
+  - name: click
+    type: MouseEvent
+    description: Fired when the user activates the control.
+slots:
+  - name: default
+    description: Inline content that renders inside the button. Keep to short text labels.
+tokens:
+  - name: --cmp-button-background-default
+    alias: --brand-primary-600
+    description: Default background for primary buttons.
+  - name: --cmp-button-background-hover
+    alias: --brand-primary-500
+    description: Hover state fill for primary buttons.
+  - name: --cmp-button-foreground-default
+    alias: --surface-on-primary
+    description: Text color for primary buttons.
+  - name: --cmp-button-background-secondary
+    alias: --surface-subtle
+    description: Background for the secondary variant.
+  - name: --cmp-button-foreground-secondary
+    alias: --brand-primary-600
+    description: Text color for the secondary variant.
+dependencies:
+  - '@virtual-ds/tokens'
+  - '@virtual-ds/components'
+code:
+  html: |
+    <ui-button variant="primary" size="md">Save changes</ui-button>
+  ts: |
+    import '@virtual-ds/components/ui-button';
+  twig: |
+    {% include '@ds/button.twig' with {
+      variant: 'primary',
+      size: 'md',
+      label: 'Save changes'
+    } %}
+  css: |
+    ui-button + ui-button {
+      margin-left: 0.75rem;
+    }
+a11y:
+  aria:
+    - "Role: button (implicit)"
+    - Use `aria-pressed="true"` for toggle states
+  keyboard:
+    - Tab focuses the control within natural order
+    - Enter or Space activates the action
+  notes:
+    - Maintain a minimum target size of 44px by 44px
+    - Provide a visible focus outline that meets 3:1 contrast
+related:
+  - accordion
+  - tabs
+---
+
+## Overview
+
+Buttons enable people to act on the current page or commit a task. Choose variants intentionally: use the primary button for the most important action on the view and secondary or ghost variants for less prominent actions.
+
+Place destructive actions away from primary CTAs and communicate the outcome in the label (for example, “Delete project”). Avoid using buttons for navigation between pages—prefer links unless the action commits data.
+
+## UX Guidelines
+
+### Dos
+
+- Keep labels short, specific, and outcome oriented (verb + noun works well).
+- Use one primary button per surface to avoid competing actions.
+- Group related buttons and maintain consistent spacing between them.
+
+### Don’ts
+
+- Don’t mix different button sizes within the same group.
+- Don’t rely on color alone to communicate destructive actions—pair with iconography or explicit labels.
+- Don’t disable buttons without also communicating why they cannot be used.
+
+## Accessibility details
+
+Buttons follow the WAI-ARIA authoring practices for command buttons. Ensure the focus ring remains visible against both light and dark themes and that contrast between text and fill meets WCAG 2.2 AA (4.5:1).
+
+When introducing toggle behavior, set `aria-pressed` and ensure the state change is announced to assistive technology. If the button triggers a dialog, move focus into the dialog container after activation.

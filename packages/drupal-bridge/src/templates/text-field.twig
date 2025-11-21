@@ -1,0 +1,33 @@
+{#
+  @file
+  Text field wrapper.
+  Variables:
+    - label: (string)
+    - name: (string)
+    - value: (string)
+    - placeholder: (string)
+    - helper: (string)
+    - error: (string)
+    - required: (bool)
+    - disabled: (bool)
+    - prefix: (string)
+    - suffix: (string)
+#}
+
+<ui-text-field
+  label="{{ label|default('Label') }}"
+  name="{{ name|default('field_name') }}"
+  value="{{ value|default('') }}"
+  placeholder="{{ placeholder|default('') }}"
+  helper="{{ helper|default('') }}"
+  error="{{ error|default('') }}"
+  {% if required %}required{% endif %}
+  {% if disabled %}disabled{% endif %}
+>
+  {% if prefix is defined %}
+    <span slot="prefix">{{ prefix|raw }}</span>
+  {% endif %}
+  {% if suffix is defined %}
+    <span slot="suffix">{{ suffix|raw }}</span>
+  {% endif %}
+</ui-text-field>

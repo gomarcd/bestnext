@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "types": ["vite/client", "storybook__addons"],
+    "moduleResolution": "Node"
+  },
+  "include": ["src", ".storybook"],
+  "exclude": ["dist", "node_modules"]
+}

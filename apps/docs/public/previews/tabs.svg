@@ -1,0 +1,26 @@
+<svg width="400" height="220" viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="220" rx="24" fill="url(#paint0_linear)" />
+  <g filter="url(#shadow)">
+    <rect x="70" y="80" width="260" height="100" rx="14" fill="#FFFFFF" />
+  </g>
+  <rect x="86" y="96" width="70" height="24" rx="12" fill="#2A289D" />
+  <text x="121" y="112" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">Overview</text>
+  <rect x="162" y="96" width="70" height="24" rx="12" fill="#EEF2FF" />
+  <text x="197" y="112" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#475569">Usage</text>
+  <rect x="238" y="96" width="70" height="24" rx="12" fill="#EEF2FF" />
+  <text x="273" y="112" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="600" fill="#475569">A11y</text>
+  <rect x="86" y="132" width="228" height="24" rx="6" fill="#E2E8F0" />
+  <rect x="86" y="156" width="168" height="16" rx="6" fill="#E2E8F0" />
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="400" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2F4FF" />
+      <stop offset="1" stop-color="#E7ECFF" />
+    </linearGradient>
+    <filter id="shadow" x="60" y="70" width="280" height="120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="5" />
+      <feComposite in2="SourceAlpha" operator="in" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" />
+    </filter>
+  </defs>
+</svg>
